@@ -453,7 +453,7 @@ http://www.tooplate.com/view/2098-health
     background-color: rgba(20,20,20,0.2);
     height: 100%;
     color: #fff;
-    cursor: e-resize;
+    cursor: pointer;
   }
 
   .slider .item {
@@ -475,6 +475,7 @@ http://www.tooplate.com/view/2098-health
   .slider .item-third {
     background-image: url(../images/office3.png);
   }
+  
 
 
   /*---------------------------------------

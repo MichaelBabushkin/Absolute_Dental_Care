@@ -168,3 +168,33 @@
   z-index: 1;
   height: 100%;
   width: 100%; }
+
+  
+  .owl-carousel .nav-btn{
+    height: 167px;
+    position: absolute;
+    width: 56px;
+    cursor: pointer;
+    top: 300px !important;
+}
+
+.owl-carousel .owl-prev.disabled,
+.owl-carousel .owl-next.disabled{
+  pointer-events: none;
+  opacity: 0.2;
+}
+
+.owl-carousel .prev-slide{
+    background: url(/images/previous.png) no-repeat scroll 0 0;
+    left: -46px;
+}
+.owl-carousel .next-slide{
+    background: url(/images/next.png) no-repeat scroll 0px 0px;
+    right: -60px;
+}
+.owl-carousel .prev-slide:hover{
+   background-size: 4.5rem;
+}
+.owl-carousel .next-slide:hover{
+  background-size: 4.5rem;
+}
