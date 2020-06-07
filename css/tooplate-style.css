@@ -787,7 +787,7 @@ http://www.tooplate.com/view/2098-health
 
   #appointment .form-control {
     background: #f9f9f9;
-    border: none;
+    border: 1px solid #ccc;
     border-radius: 3px;
     box-shadow: none;
     font-size: 14px;
@@ -813,7 +813,9 @@ http://www.tooplate.com/view/2098-health
     color: #ffffff;
   }
 
-
+textarea {
+  resize: none;
+}
   /*---------------------------------------
      FOOTER              
   -----------------------------------------*/
