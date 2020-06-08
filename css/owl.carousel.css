@@ -198,3 +198,7 @@
 .owl-carousel .next-slide:hover{
   background-size: 4.5rem;
 }
+.prev-slide:hover .next-slide:hover{
+  border-color: rgb(212, 10, 10) ;
+  border-style: double;
+}

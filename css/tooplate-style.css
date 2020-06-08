@@ -198,15 +198,15 @@ http://www.tooplate.com/view/2098-health
   }
 
   #google-map {
-    line-height: 0;
-    margin-top: 20px;
-    margin-left: 30px;
+    /* line-height: 0; */
+    margin-top: 100px;
+    /* margin-left: 30px; */
    
 
   }
   .outside-office-photo{
     /* margin-right: 20px; */
-    margin: auto;
+    /* margin: auto; */
     border-radius: 3%;
     border: #1da1f2;
     display: block;
@@ -800,6 +800,14 @@ http://www.tooplate.com/view/2098-health
   #appointment select {
     height: 45px;
   }
+
+  #appointment input:focus,
+  #appointment select:focus,
+  #message:focus   {
+    border-color: tomato;
+    background-color: paleturquoise;
+  }
+ 
 
   #appointment button#cf-submit {
     background: #a5c422;
