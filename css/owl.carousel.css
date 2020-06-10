@@ -171,7 +171,7 @@
 
   
   .owl-carousel .nav-btn{
-    height: 167px;
+    height: 50px;
     position: absolute;
     width: 56px;
     cursor: pointer;
@@ -184,21 +184,22 @@
   opacity: 0.2;
 }
 
-.owl-carousel .prev-slide{
-    background: url(/images/previous.png) no-repeat scroll 0 0;
-    left: -46px;
+.owl-carousel  .prev-slide{
+    background: url(../images/previous.png) no-repeat scroll 0 0;
+    left: -56px;
 }
 .owl-carousel .next-slide{
-    background: url(/images/next.png) no-repeat scroll 0px 0px;
+    background: url(../images/next.png) no-repeat scroll 0px 0px;
     right: -60px;
 }
-.owl-carousel .prev-slide:hover{
+.owl-carousel  .prev-slide:hover{
    background-size: 4.5rem;
+   border-color: rgb(212, 10, 10) ;
+   border-style: solid ;
 }
-.owl-carousel .next-slide:hover{
+.owl-carousel  .next-slide:hover{
   background-size: 4.5rem;
-}
-.prev-slide:hover .next-slide:hover{
   border-color: rgb(212, 10, 10) ;
-  border-style: double;
+  border-style: solid ;
 }
+

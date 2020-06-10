@@ -805,7 +805,7 @@ http://www.tooplate.com/view/2098-health
   #appointment select:focus,
   #message:focus   {
     border-color: tomato;
-    background-color: paleturquoise;
+    background-color: rgb(18, 224, 97,0.5);
   }
  
 

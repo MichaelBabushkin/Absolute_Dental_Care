@@ -41,10 +41,6 @@
      <header>
           <div class="container">
                <div class="row">
-                    <!-- 
-                    <div class="col-md-4 col-sm-5">
-                         <p>Welcome to a Professional Health Care</p>
-                    </div> -->
 
                     <div class="col-md-12 col-sm-12 text-align-right">
                          <span class="phone-icon"><i class="fa fa-phone"></i> 718-833-3417</span>
@@ -74,10 +70,8 @@
                               <span class="icon icon-bar"></span>
                               <span class="icon icon-bar"></span>
                          </button>
-                         <!-- <div><img src="images/logo.png" alt=""></div> -->
-                         <!-- lOGO TEXT HERE -->
-
-                         <a href="index.html" class="navbar-brand">Absolute Dental Care PC</a>
+                    
+                         <a href="index.php" class="navbar-brand">Absolute Dental Care PC</a>
                     </div>
 
                     <!-- MENU LINKS -->
@@ -98,7 +92,7 @@
 
 
      <!-- HOME -->
-     <section id="home" class="slider" data-stellar-background-ratio="0.5">
+     <section id="home" class="slider" data-stellar-background-ratio="0.5" >
           <div class="container">
                <div class="row">
 
