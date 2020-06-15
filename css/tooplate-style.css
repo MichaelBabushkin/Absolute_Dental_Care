@@ -61,7 +61,7 @@ http://www.tooplate.com/view/2098-health
   }
 
   p {
-    color: #757575;
+    color: #000000;
     font-size: 14px;
     font-weight: normal;
     line-height: 24px;
@@ -272,7 +272,7 @@ http://www.tooplate.com/view/2098-health
   -----------------------------------------*/
 
   header {
-    background-image: radial-gradient( circle farthest-corner at 22.4% 21.7%,  rgba(4,189,228,1) 0%, rgba(147, 194, 233, 0) 100.2% );
+    background-image: radial-gradient( circle closest-side at 22.4% 21.7%, rgba(147, 194, 233, 0) 100.2%, rgba(4,189,228,1) 0% );
 
     border-bottom: 1px solid #f2f2f2;
     display: flex;
@@ -359,8 +359,8 @@ http://www.tooplate.com/view/2098-health
     color: #555555;
     font-size: 16px;
     font-weight: 500;
-    padding-right: 25px;
-    padding-left: 25px;
+    margin-right: 20px;
+    /* padding-left: 25px; */
     -webkit-transition: all ease-in-out 0.4s;
     transition: all ease-in-out 0.4s;
     border-radius: 25px;
@@ -492,10 +492,10 @@ http://www.tooplate.com/view/2098-health
 
 
   /*---------------------------------------
-      ABOUT              
+     Our services           
   -----------------------------------------*/
 
-  #about {
+  #services {
     background: url('../images/about-bg.jpg') no-repeat top center;
     background-size: cover;
     padding-top: 150px;
@@ -518,10 +518,48 @@ http://www.tooplate.com/view/2098-health
     margin-top: 0;
   }
 
-  #about h6 {
+  #services h6 {
     color: #858585;
     margin: 0;
   }
+
+  .services-inner{
+    overflow: hidden;
+    clear: both;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .service{
+    padding: 20px 0;
+    background-color: #333;
+    border:1px solid #ff4444;
+  }
+  
+  .service h3{
+    color:#ff4444;
+  }
+  
+  .service:hover{
+    padding: 20px 0;
+    background-color: #ff4444;
+  }
+  
+  .service:hover h3{
+    color:#fff;
+  }
+  
+  .service-content{
+    color: #fff;
+    padding: 0 10px;
+  }
+  
+  @media(max-width: 767px){
+    .services-inner{
+      display: block;
+    }
+  }
+
 
 
 
@@ -785,7 +823,7 @@ http://www.tooplate.com/view/2098-health
 
 
   /*---------------------------------------
-      APPOINTMENT             
+      Contact Us             
   -----------------------------------------*/
 
   #appointment {
@@ -817,7 +855,7 @@ http://www.tooplate.com/view/2098-health
   #appointment select:focus,
   #message:focus   {
     border-color: tomato;
-    background-color: rgb(18, 224, 97,0.5);
+    background-color: rgba(199, 230, 253, 0.822);
   }
  
 

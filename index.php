@@ -46,8 +46,7 @@
                          <span class="phone-icon"><i class="fa fa-phone"></i> 718-833-3417</span>
                          <span class="date-icon"><i class="fa fa-calendar-plus-o"></i> 6:00 AM - 10:00 PM
                               (Mon-Fri)</span>
-                         <span class="email-icon"><i class="fa fa-envelope-o"></i> <a
-                                   href="#">absolutedentalny@gmail.com</a></span>
+                         <span class="email-icon"><i class="fa fa-envelope-o"></i> <a href="mailto:absolutedentalny@gmail.com">absolutedentalny@gmail.com</a></span>
                     </div>
 
                </div>
@@ -78,7 +77,7 @@
                     <div class="collapse navbar-collapse col-md-8 col-sm-12 text-align-right">
                          <ul class="nav navbar-nav navbar-right">
                               <li><a href="#top" class="smoothScroll">Home</a></li>
-                              <li><a href="#about" class="smoothScroll">About Us</a></li>
+                              <li><a href="#services" class="smoothScroll">Our services</a></li>
                               <li><a href="#team" class="smoothScroll">Dr. Gelman</a></li>
                               <li><a href="#news" class="smoothScroll">Reviews</a></li>
                               <li><a href="#appointment" class="smoothScroll">Contact</a></li>
@@ -129,7 +128,7 @@
      </section>
 
      <!-- ABOUT -->
-     <section id="about">
+     <section id="services">
           <div class="container">
                <div class="row">
 
@@ -137,18 +136,66 @@
                          <div class="about-info">
                               <h2 class="wow fadeInUp" data-wow-delay="0.6s">Welcome to Absolute Dental Care PC</h2>
                               <div class="wow fadeInUp" data-wow-delay="0.8s">
-                                   <p>Aenean luctus lobortis tellus, vel ornare enim molestie condimentum. Curabitur
+                                   <!-- <p>Aenean luctus lobortis tellus, vel ornare enim molestie condimentum. Curabitur
                                         lacinia nisi vitae velit volutpat venenatis.</p>
                                    <p>Sed a dignissim lacus. Quisque fermentum est non orci commodo, a luctus urna
-                                        mattis. Ut placerat, diam a tempus vehicula.</p>
+                                        mattis. Ut placerat, diam a tempus vehicula.</p> -->
+                                        <div class="col-md-12 section-title text-center">
+            <h2>Services</h2>
+            <p>Est sale assum ut, in sed ludus convenire partiendo.</p>
+          </div><!--col-md-12-->
+
+          <div class="services-inner text-center">
+            <div class="col-sm-4 service">
+              
+              <div class="service-content">
+                <h3><strong>Web Development</strong></h3>
+                <p>Regione probatus conclusionemque vel ne, assum congue in eos. Elitr accusata nam ne, est an altera maiorum, purto nostrum verterem pri et. Odio numquam appareat mea an, ne nam dicat putant, his an mazim paulo aperiam.</p>
+              </div>
+              
+            </div><!--col-sm-3-->
+            <div class="col-sm-4 service">
+              <div class="service-content">
+                <h3><strong>Web Designing</strong></h3>
+                <p>Regione probatus ne nam dicat putant, his an mazim paulo aperiam.</p>
+              </div>
+            </div><!--col-sm-3-->
+            <div class="col-sm-4 service">
+              <div class="service-content">
+                <h3><strong>SEO</strong></h3>
+                <p>
+                  Regione probatus conclusionemque vel ne, assum congue in eos. his an mazim paulo aperiam.
+                </p>
+              </div>
+            </div><!--col-sm-3-->
+            <div class="col-sm-4 service">
+              <div class="service-content">
+                <h3><strong>Branding</strong></h3>
+                <p>Regione ne nam dicat putant, his an mazim paulo aperiam.</p>
+              </div>
+            </div><!--col-sm-3-->
+            <div class="col-sm-4 service">
+              <div class="service-content">
+                <h3><strong>Social Media</strong></h3>
+                <p>Odio numquam appareat mea an, ne nam dicat putant, his an mazim paulo aperiam.</p>
+              </div>
+            </div><!--col-sm-3-->
+            <div class="col-sm-4 service">
+              <div class="service-content">
+                <h3><strong>eCommerce</strong></h3>
+                <p>Regione probatus conclusionemque vel ne, assum congue in eos. Elitr accusata nam ne, est an altera maiorum, purto nostrum verterem pri et. </p>
+              </div>
+            </div><!--col-sm-3-->
+          </div><!--services-inner-->
+
                               </div>
-                              <figure class="profile wow fadeInUp" data-wow-delay="1s">
+                              <!-- <figure class="profile wow fadeInUp" data-wow-delay="1s">
                                    <img src="images/author-image.jpg" class="img-responsive" alt="">
                                    <figcaption>
                                         <h3>Dr. Neil Jackson</h3>
                                         <p>General Principal</p>
                                    </figcaption>
-                              </figure>
+                              </figure> -->
                          </div>
                     </div>
 
@@ -391,8 +438,7 @@
                                         <label for="message">Message</label>
                                         <textarea class="form-control" rows="5" id="message" name="message"
                                              placeholder="Message"></textarea>
-                                        <button type="submit" class="form-control" id="cf-submit" name="submit">Submit
-                                             Button</button>
+                                        <button type="submit" class="form-control" id="cf-submit" name="submit">Submit</button>
                                    </div>
                               </div>
                          </form>
@@ -411,9 +457,7 @@
           <div class="container">
                <div class="row">
                     <div class="col-md-6 col-sm-12">
-          <iframe
-               src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12111.948808470888!2d-74.02532810868087!3d40.63016420481853!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2455859d6dc37%3A0x16f7f7c67c95d29b!2sAbsolute%20Dental%20Care%3A%20Gelman%20Yevgeniya%20DDS!5e0!3m2!1siw!2sil!4v1582752868286!5m2!1siw!2sil"
-               width="100%" height="350" frameborder="0" style="border:0;border-radius: 3%;"  allowfullscreen></iframe> 
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6055.871851704374!2d-74.023372!3d40.631295!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2455859c3ffff%3A0x18be282263a13a61!2s310%2076th%20St%2C%20Brooklyn%2C%20NY%2011209%2C%20USA!5e0!3m2!1sen!2sil!4v1592175282042!5m2!1sen!2sil" width="550" height="320" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
           </div>
           <div class="col-md-6 col-sm-12">
                <img class="outside-office-photo" src="images/office_outside.jpg" alt="">
