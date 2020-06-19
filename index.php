@@ -77,8 +77,48 @@
                     <div class="collapse navbar-collapse col-md-8 col-sm-12 text-align-right">
                          <ul class="nav navbar-nav navbar-right">
                               <li><a href="#top" class="smoothScroll">Home</a></li>
-                              <li><a href="#services" class="smoothScroll">Our services</a></li>
-                              <li><a href="#team" class="smoothScroll">Dr. Gelman</a></li>
+                              <!-- <li><a href="#services" class="smoothScroll">Our services</a></li> -->
+                              <li class="dropdown">
+	            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Our services<b class="caret"></b></a>
+	            <ul class="dropdown-menu multi-column columns-3">
+		            <div class="row">
+			            <div class="col-sm-4">
+				            <ul class="multi-column-dropdown">
+					            <li><h4>Action</h4></li>
+					            <li><a href="#">Another action</a></li>
+					            <li><a href="#">Something else here</a></li>
+					            <li class="divider"></li>
+					            <li><a href="#">Separated link</a></li>
+					            <li class="divider"></li>
+					            <li><a href="#">One more separated link</a></li>
+				            </ul>
+			            </div>
+			            <div class="col-sm-4">
+				            <ul class="multi-column-dropdown">
+					            <li><h4>Action</h4></li>
+					            <li><a href="#">Another action</a></li>
+					            <li><a href="#">Something else here</a></li>
+					            <li class="divider"></li>
+					            <li><a href="#">Separated link</a></li>
+					            <li class="divider"></li>
+					            <li><a href="#">One more separated link</a></li>
+				            </ul>
+			            </div>
+			            <div class="col-sm-4">
+				            <ul class="multi-column-dropdown">
+					            <li><h4>Action</h4></li>
+					            <li><a href="#">Another action</a></li>
+					            <li><a href="#">Something else here</a></li>
+					            <li class="divider"></li>
+					            <li><a href="#">Separated link</a></li>
+					            <li class="divider"></li>
+					            <li><a href="#">One more separated link</a></li>
+				            </ul>
+			            </div>
+		            </div>
+	            </ul>
+	        </li>                           
+                <li><a href="#team" class="smoothScroll">Dr. Gelman</a></li>
                               <li><a href="#news" class="smoothScroll">Reviews</a></li>
                               <li><a href="#appointment" class="smoothScroll">Contact</a></li>
                               <li><a href="#google-map" class="smoothScroll">Directions</a></li>
