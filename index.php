@@ -19,6 +19,8 @@
      <link rel="stylesheet" href="css/animate.css">
      <link rel="stylesheet" href="css/owl.carousel.css">
      <link rel="stylesheet" href="css/owl.theme.default.min.css">
+     <link rel="stylesheet" href="css/hexagon.css">
+
 
      <!-- MAIN CSS -->
      <link rel="stylesheet" href="css/tooplate-style.css">
@@ -46,7 +48,8 @@
                          <span class="phone-icon"><i class="fa fa-phone"></i> 718-833-3417</span>
                          <span class="date-icon"><i class="fa fa-calendar-plus-o"></i> 6:00 AM - 10:00 PM
                               (Mon-Fri)</span>
-                         <span class="email-icon"><i class="fa fa-envelope-o"></i> <a href="mailto:absolutedentalny@gmail.com">absolutedentalny@gmail.com</a></span>
+                         <span class="email-icon"><i class="fa fa-envelope-o"></i> <a
+                                   href="mailto:absolutedentalny@gmail.com">absolutedentalny@gmail.com</a></span>
                     </div>
 
                </div>
@@ -69,7 +72,7 @@
                               <span class="icon icon-bar"></span>
                               <span class="icon icon-bar"></span>
                          </button>
-                    
+
                          <a href="index.php" class="navbar-brand">Absolute Dental Care PC</a>
                     </div>
 
@@ -79,46 +82,53 @@
                               <li><a href="#top" class="smoothScroll">Home</a></li>
                               <!-- <li><a href="#services" class="smoothScroll">Our services</a></li> -->
                               <li class="dropdown">
-	            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Our services<b class="caret"></b></a>
-	            <ul class="dropdown-menu multi-column columns-3">
-		            <div class="row">
-			            <div class="col-sm-4">
-				            <ul class="multi-column-dropdown">
-					            <li><h4>Action</h4></li>
-					            <li><a href="#">Another action</a></li>
-					            <li><a href="#">Something else here</a></li>
-					            <li class="divider"></li>
-					            <li><a href="#">Separated link</a></li>
-					            <li class="divider"></li>
-					            <li><a href="#">One more separated link</a></li>
-				            </ul>
-			            </div>
-			            <div class="col-sm-4">
-				            <ul class="multi-column-dropdown">
-					            <li><h4>Action</h4></li>
-					            <li><a href="#">Another action</a></li>
-					            <li><a href="#">Something else here</a></li>
-					            <li class="divider"></li>
-					            <li><a href="#">Separated link</a></li>
-					            <li class="divider"></li>
-					            <li><a href="#">One more separated link</a></li>
-				            </ul>
-			            </div>
-			            <div class="col-sm-4">
-				            <ul class="multi-column-dropdown">
-					            <li><h4>Action</h4></li>
-					            <li><a href="#">Another action</a></li>
-					            <li><a href="#">Something else here</a></li>
-					            <li class="divider"></li>
-					            <li><a href="#">Separated link</a></li>
-					            <li class="divider"></li>
-					            <li><a href="#">One more separated link</a></li>
-				            </ul>
-			            </div>
-		            </div>
-	            </ul>
-	        </li>                           
-                <li><a href="#team" class="smoothScroll">Dr. Gelman</a></li>
+                                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">Our services<b
+                                             class="caret"></b></a>
+                                   <ul class="dropdown-menu multi-column columns-3">
+                                        <div class="row">
+                                             <div class="col-sm-4">
+                                                  <ul class="multi-column-dropdown">
+                                                       <li>
+                                                            <h4>Action</h4>
+                                                       </li>
+                                                       <li><a href="#">Another action</a></li>
+                                                       <li><a href="#">Something else here</a></li>
+                                                       <li class="divider"></li>
+                                                       <li><a href="#">Separated link</a></li>
+                                                       <li class="divider"></li>
+                                                       <li><a href="#">One more separated link</a></li>
+                                                  </ul>
+                                             </div>
+                                             <div class="col-sm-4">
+                                                  <ul class="multi-column-dropdown">
+                                                       <li>
+                                                            <h4>Action</h4>
+                                                       </li>
+                                                       <li><a href="#">Another action</a></li>
+                                                       <li><a href="#">Something else here</a></li>
+                                                       <li class="divider"></li>
+                                                       <li><a href="#">Separated link</a></li>
+                                                       <li class="divider"></li>
+                                                       <li><a href="#">One more separated link</a></li>
+                                                  </ul>
+                                             </div>
+                                             <div class="col-sm-4">
+                                                  <ul class="multi-column-dropdown">
+                                                       <li>
+                                                            <h4>Action</h4>
+                                                       </li>
+                                                       <li><a href="#">Another action</a></li>
+                                                       <li><a href="#">Something else here</a></li>
+                                                       <li class="divider"></li>
+                                                       <li><a href="#">Separated link</a></li>
+                                                       <li class="divider"></li>
+                                                       <li><a href="#">One more separated link</a></li>
+                                                  </ul>
+                                             </div>
+                                        </div>
+                                   </ul>
+                              </li>
+                              <li><a href="#team" class="smoothScroll">Dr. Gelman</a></li>
                               <li><a href="#news" class="smoothScroll">Reviews</a></li>
                               <li><a href="#appointment" class="smoothScroll">Contact</a></li>
                               <li><a href="#google-map" class="smoothScroll">Directions</a></li>
@@ -131,8 +141,9 @@
 
 
      <!-- HOME -->
-     <section id="home" class="slider" data-stellar-background-ratio="0.5" >
+     <section id="home" class="slider" data-stellar-background-ratio="0.5">
           <div class="container">
+               <h2>Welcome to Absolute Dental Care PC</h2>
                <div class="row">
 
                     <div class="owl-carousel owl-theme">
@@ -180,62 +191,72 @@
                                         lacinia nisi vitae velit volutpat venenatis.</p>
                                    <p>Sed a dignissim lacus. Quisque fermentum est non orci commodo, a luctus urna
                                         mattis. Ut placerat, diam a tempus vehicula.</p> -->
-                                        <div class="col-md-12 section-title text-center">
-            <h2>Services</h2>
-            <p>Est sale assum ut, in sed ludus convenire partiendo.</p>
-          </div><!--col-md-12-->
+                                   <div class="col-md-12 section-title text-center">
+                                        <h2>Services</h2>
+                                        <p>Est sale assum ut, in sed ludus convenire partiendo.</p>
+                                   </div>
+                                   <!--col-md-12-->
 
-          <div class="services-inner text-center">
-            <div class="col-sm-4 service">
-              
-              <div class="service-content">
-                <h3><strong>Web Development</strong></h3>
-                <p>Regione probatus conclusionemque vel ne, assum congue in eos. Elitr accusata nam ne, est an altera maiorum, purto nostrum verterem pri et. Odio numquam appareat mea an, ne nam dicat putant, his an mazim paulo aperiam.</p>
-              </div>
-              
-            </div><!--col-sm-3-->
-            <div class="col-sm-4 service">
-              <div class="service-content">
-                <h3><strong>Web Designing</strong></h3>
-                <p>Regione probatus ne nam dicat putant, his an mazim paulo aperiam.</p>
-              </div>
-            </div><!--col-sm-3-->
-            <div class="col-sm-4 service">
-              <div class="service-content">
-                <h3><strong>SEO</strong></h3>
-                <p>
-                  Regione probatus conclusionemque vel ne, assum congue in eos. his an mazim paulo aperiam.
-                </p>
-              </div>
-            </div><!--col-sm-3-->
-            <div class="col-sm-4 service">
-              <div class="service-content">
-                <h3><strong>Branding</strong></h3>
-                <p>Regione ne nam dicat putant, his an mazim paulo aperiam.</p>
-              </div>
-            </div><!--col-sm-3-->
-            <div class="col-sm-4 service">
-              <div class="service-content">
-                <h3><strong>Social Media</strong></h3>
-                <p>Odio numquam appareat mea an, ne nam dicat putant, his an mazim paulo aperiam.</p>
-              </div>
-            </div><!--col-sm-3-->
-            <div class="col-sm-4 service">
-              <div class="service-content">
-                <h3><strong>eCommerce</strong></h3>
-                <p>Regione probatus conclusionemque vel ne, assum congue in eos. Elitr accusata nam ne, est an altera maiorum, purto nostrum verterem pri et. </p>
-              </div>
-            </div><!--col-sm-3-->
-          </div><!--services-inner-->
+                                   <div class="services-inner text-center">
+                                        <div class="col-sm-4 service">
+
+                                             <div class="service-content">
+                                                  <h3><strong>Web Development</strong></h3>
+                                                  <p>Regione probatus conclusionemque vel ne, assum congue in eos. Elitr
+                                                       accusata nam ne, est an altera maiorum, purto nostrum verterem
+                                                       pri et. Odio numquam appareat mea an, ne nam dicat putant, his an
+                                                       mazim paulo aperiam.</p>
+                                             </div>
+
+                                        </div>
+                                        <!--col-sm-3-->
+                                        <div class="col-sm-4 service">
+                                             <div class="service-content">
+                                                  <h3><strong>Web Designing</strong></h3>
+                                                  <p>Regione probatus ne nam dicat putant, his an mazim paulo aperiam.
+                                                  </p>
+                                             </div>
+                                        </div>
+                                        <!--col-sm-3-->
+                                        <div class="col-sm-4 service">
+                                             <div class="service-content">
+                                                  <h3><strong>SEO</strong></h3>
+                                                  <p>
+                                                       Regione probatus conclusionemque vel ne, assum congue in eos. his
+                                                       an mazim paulo aperiam.
+                                                  </p>
+                                             </div>
+                                        </div>
+                                        <!--col-sm-3-->
+                                        <div class="col-sm-4 service">
+                                             <div class="service-content">
+                                                  <h3><strong>Branding</strong></h3>
+                                                  <p>Regione ne nam dicat putant, his an mazim paulo aperiam.</p>
+                                             </div>
+                                        </div>
+                                        <!--col-sm-3-->
+                                        <div class="col-sm-4 service">
+                                             <div class="service-content">
+                                                  <h3><strong>Social Media</strong></h3>
+                                                  <p>Odio numquam appareat mea an, ne nam dicat putant, his an mazim
+                                                       paulo aperiam.</p>
+                                             </div>
+                                        </div>
+                                        <!--col-sm-3-->
+                                        <div class="col-sm-4 service">
+                                             <div class="service-content">
+                                                  <h3><strong>eCommerce</strong></h3>
+                                                  <p>Regione probatus conclusionemque vel ne, assum congue in eos. Elitr
+                                                       accusata nam ne, est an altera maiorum, purto nostrum verterem
+                                                       pri et. </p>
+                                             </div>
+                                        </div>
+                                        <!--col-sm-3-->
+                                   </div>
+                                   <!--services-inner-->
 
                               </div>
-                              <!-- <figure class="profile wow fadeInUp" data-wow-delay="1s">
-                                   <img src="images/author-image.jpg" class="img-responsive" alt="">
-                                   <figcaption>
-                                        <h3>Dr. Neil Jackson</h3>
-                                        <p>General Principal</p>
-                                   </figcaption>
-                              </figure> -->
+
                          </div>
                     </div>
 
@@ -243,6 +264,156 @@
           </div>
      </section>
 
+<!-- OUR SERVICES -->
+     <section id="ourServices">
+          <div class="container">
+               <h2 class="wow fadeInUp" data-wow-delay="0.6s">Our Services</h2>
+                              <div class="wow fadeInUp" data-wow-delay="0.8s"> </div>
+               <div class="row">
+
+                   
+                         <!-- <div class="about-info"> -->
+                              
+                              <div class="col-md-8 col-sm-8">
+                              <article>
+
+                                   <div class="ourServices_item">
+                                        <div class="hexagon hexagon2">
+                                             <div class="hexagon-in1">
+                                                  <div class="hexagon-in3">
+                                                  </div>
+                                             </div>
+                                        </div>
+                                   </div>
+                                   <div class="ourServices_item">
+                                        <div class="hexagon hexagon2">
+                                             <div class="hexagon-in1">
+                                                  <div class="hexagon-in2"
+                                                       style="background-image: url(images/human-teeth.jpg);">
+                                                       <div class="centered"><button class="tablinks" onmouseover="showInfo(event, 'cosmetic_dentistry')">COSMETIC DENTISTRY</button></div>
+                                                  </div>
+                                             </div>
+                                        </div>
+                                   </div>
+                                   <div class="ourServices_item">
+                                        <div class="hexagon hexagon2">
+                                             <div class="hexagon-in1">
+                                                  <div class="hexagon-in2"
+                                                       style="background-image: url(images/human-teeth.jpg);">
+                                                       <div class="centered"><button class="tablinks" onmouseover="showInfo(event, 'orthodontics')">ORTHODONTICS</button></div>
+                                                  </div>
+                                             </div>
+                                        </div>
+                                   </div>
+                                   <div class="ourServices_item">
+                                        <div class="hexagon hexagon2">
+                                             <div class="hexagon-in1">
+                                                  <div class="hexagon-in3">
+                                                  </div>
+                                             </div>
+                                        </div>
+                                   </div>
+                                   <div class="ourServices_item">
+                                        <div class="hexagon hexagon2">
+                                             <div class="hexagon-in1">
+                                                  <div class="hexagon-in2"
+                                                       style="background-image: url(images/human-teeth.jpg);">
+                                                       <div class="centered"><button class="tablinks" onmouseover="showInfo(event, 'family_dentistry')">FAMILY DENTISTRY</button></div>
+                                                  </div>
+                                             </div>
+                                        </div>
+                                   </div>
+                                   <div class="ourServices_item">
+                                        <div class="hexagon hexagon2">
+                                             <div class="hexagon-in1">
+                                                  <div class="hexagon-in4"  style="background-image: url(nav_logo.png);">
+                                                  </div>
+                                             </div>
+                                        </div>
+                                   </div>
+                                   <div class="ourServices_item">
+                                        <div class="hexagon hexagon2">
+                                             <div class="hexagon-in1">
+                                                  <div class="hexagon-in2"
+                                                       style="background-image: url(images/human-teeth.jpg);">
+                                                       <div class="centered"><button class="tablinks" onmouseover="showInfo(event, 'emergencies')">EMERGENCIES</button></div>
+                                                  </div>
+                                             </div>
+                                        </div>
+                                   </div>
+                                   <div class="ourServices_item">
+                                        <div class="hexagon hexagon2">
+                                             <div class="hexagon-in1">
+                                                  <div class="hexagon-in3">
+                                                  </div>
+                                             </div>
+                                        </div>
+                                   </div>
+                                   <div class="ourServices_item">
+                                        <div class="hexagon hexagon2">
+                                             <div class="hexagon-in1">
+                                                  <div class="hexagon-in2"
+                                                       style="background-image: url(images/human-teeth.jpg);">
+                                                       <div class="centered"><button class="tablinks" onmouseover="showInfo(event, 'periodontics')">PERIODONTICS</button></div>
+                                                  </div>
+                                             </div>
+                                        </div>
+                                   </div>
+                                   <div class="ourServices_item">
+                                        <div class="hexagon hexagon2">
+                                             <div class="hexagon-in1">
+                                                  <div class="hexagon-in2"
+                                                       style="background-image: url(images/human-teeth.jpg);">
+                                                       <div class="centered"><button class="tablinks" onmouseover="showInfo(event, 'dental_implants')">DENTAL IMPLANTS</button></div>
+                                                  </div>
+                                             </div>
+                                        </div>
+                                   </div>
+
+
+                              </article>
+                              </div>
+  
+                         <!-- </div> -->
+                         <div class="col-md-4 col-sm-4">
+                              <div class="more_info"></div>
+                                             
+                                 <div id="dental_implants" class="more_info">
+                                   <h3>DENTAL IMPLANTS</h3>
+                                   <p>London is the capital city of England.</p>
+                                 </div>
+                                 
+                                 <div id="periodontics" class="more_info">
+                                   <h3>PERIODONTICS</h3>
+                                   <p>Paris is the capital of France.</p> 
+                                 </div>
+                                 
+                                 <div id="emergencies" class="more_info">
+                                   <h3>EMERGENCIES</h3>
+                                   <p>Tokyo is the capital of Japan.</p>
+                                 </div>
+                                 <div id="orthodontics" class="more_info">
+                                   <h3>ORTHODONTICS</h3>
+                                   <p>London is the capital city of England.</p>
+                                 </div>
+                                 
+                                 <div id="family_dentistry" class="more_info">
+                                   <h3>FAMILY DENTISTRY</h3>
+                                   <p>Paris is the capital of France.</p> 
+                                 </div>
+                                 
+                                 <div id="cosmetic_dentistry" class="more_info">
+                                   <h3>COSMETIC DENTISTRY</h3>
+                                   <p>Tokyo is the capital of Japan.</p>
+                                 </div>
+                                 <div class="clearfix"></div>                       
+                                                            
+                                                            
+                         </div>
+                    </div>
+               </div>
+
+     </section>
 
      <!-- TEAM -->
      <section id="team" data-stellar-background-ratio="1">
@@ -257,71 +428,71 @@
 
                     <div class="clearfix"></div>
                </div>
-                    <div class="col-md-6 col-sm-6">
-                         <div data-wow-delay="0.2s">
-                              <img src="images/Dr. Gelman.jpg" class="img-responsive" alt="">
+               <div class="col-md-6 col-sm-6">
+                    <div data-wow-delay="0.2s">
+                         <img src="images/Dr. Gelman.jpg" class="img-responsive" alt="">
 
-                              <div class="team-info">
-                                   <h3 class="yevgeniya-headline">Dr. Yevgeniya Gelman</h3>
+                         <div class="team-info">
+                              <h3 class="yevgeniya-headline">Dr. Yevgeniya Gelman</h3>
 
-                                   <div class="about-dr-gelman">
+                              <div class="about-dr-gelman">
 
-                                        <p class="biography-header"><b> SPECIALTIES</b></p>
-                                        <ul>
-                                             <li>
-                                                  General Dentistry
-                                             </li>
-                                        </ul>
-                                        <p class="biography-header"><b> EDUCATION AND TRAINING</b></p>
-                                        <ul>
-                                             <li>
-                                                  DENTAL SCHOOL
-                                                  New York University School Of Medicine
-                                                  Graduated 1995
-                                             </li>
-                                        </ul>
-                                        <p class="biography-header"><b>Languages</b></p>
-                                        <ul>
-                                             <li>
-                                                  Russian
-                                             </li>
-                                             <li>
-                                                  English
-                                             </li>
-                                        </ul>
-                                        <iframe width="400" height="315" src="https://www.youtube.com/embed/_q3UgS8Uf-E"
+                                   <p class="biography-header"><b> SPECIALTIES</b></p>
+                                   <ul>
+                                        <li>
+                                             General Dentistry
+                                        </li>
+                                   </ul>
+                                   <p class="biography-header"><b> EDUCATION AND TRAINING</b></p>
+                                   <ul>
+                                        <li>
+                                             DENTAL SCHOOL
+                                             New York University School Of Medicine
+                                             Graduated 1995
+                                        </li>
+                                   </ul>
+                                   <p class="biography-header"><b>Languages</b></p>
+                                   <ul>
+                                        <li>
+                                             Russian
+                                        </li>
+                                        <li>
+                                             English
+                                        </li>
+                                   </ul>
+                                   <iframe width="400" height="315" src="https://www.youtube.com/embed/_q3UgS8Uf-E"
                                         frameborder="0"
                                         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                                         allowfullscreen></iframe>
-                                   </div>
-
-
                               </div>
 
-                         </div>
-                    </div>
-
-                    <div class="col-md-6 col-sm-6">
-                         <div class="team-thumb wow fadeInUp" data-wow-delay="0.4s">
-                              <div class="dr-gelman-description">
-                                   Dr. Y. Gelman graduated from New York University College of Dentistry in 1996. Dr. Y.
-                                   Gelman is licensed to practice dentistry in the States of New York and New Jersey and
-                                   she is member of the American Dental Association. Dr. Y. Gelman constantly keeps
-                                   herself informed about latest technologies in modern dentistry: she completed 1 Year
-                                   NY Maxicourse in Oral Implantology, Botox and Dermofillers course, 6 months aesthetic
-                                   dentistry course, Invasilign Certification. Dr. Y. Gelman is 2nd Generation Dentist.
-                                   She believes in gentle personalized care tailored to your dental needs while using
-                                   latest techniques to achieve long term dental health. She is sure, healthy, and
-                                   beautiful smiles can be possibly with regularly scheduled appointments and proper
-                                   preventive and proactive periodontal care.
-                              </div>
 
                          </div>
 
                     </div>
+               </div>
+
+               <div class="col-md-6 col-sm-6">
+                    <div class="team-thumb wow fadeInUp" data-wow-delay="0.4s">
+                         <div class="dr-gelman-description">
+                              Dr. Y. Gelman graduated from New York University College of Dentistry in 1996. Dr. Y.
+                              Gelman is licensed to practice dentistry in the States of New York and New Jersey and
+                              she is member of the American Dental Association. Dr. Y. Gelman constantly keeps
+                              herself informed about latest technologies in modern dentistry: she completed 1 Year
+                              NY Maxicourse in Oral Implantology, Botox and Dermofillers course, 6 months aesthetic
+                              dentistry course, Invasilign Certification. Dr. Y. Gelman is 2nd Generation Dentist.
+                              She believes in gentle personalized care tailored to your dental needs while using
+                              latest techniques to achieve long term dental health. She is sure, healthy, and
+                              beautiful smiles can be possibly with regularly scheduled appointments and proper
+                              preventive and proactive periodontal care.
+                         </div>
+
+                    </div>
+
+               </div>
 
 
-               
+
           </div>
      </section>
 
@@ -402,7 +573,7 @@
                     </div>
 
                     <div class="col-md-4 col-sm-6">
-                         <!-- NEWS THUMB -->
+                         <!-- Reviews -->
                          <div class="news-thumb wow fadeInUp" data-wow-delay="0.8s">
                               <a href="news-detail.html">
                                    <img src="images/5_star_rating.png" class="img-responsive" alt="">
@@ -450,45 +621,45 @@
                               <div class="section-title wow fadeInUp" data-wow-delay="0.4s">
                                    <h2>Quick Contact</h2>
                                    <h3>Contact us today, and get reply with in 24 hours!</h3>
-                                
+
                               </div>
 
                               <div class="wow fadeInUp" data-wow-delay="0.8s">
                                    <div class="col-md-6 col-sm-6">
-                                        <label for="name">Name</label>
+                                        <ourServicesel for="name">Name</ourServicesel>
                                         <input type="text" class="form-control" id="name" name="name"
-                                        placeholder="Full Name" pattern="^[A-Za-z ]{2,35}$" required><br>
+                                             placeholder="Full Name" pattern="^[A-Za-z ]{2,35}$" required><br>
                                         <span id="name_error"> <br></span>
                                    </div>
 
                                    <div class="col-md-6 col-sm-6">
-                                        <label for="email">Email</label>
+                                        <ourServicesel for="email">Email</ourServicesel>
                                         <input type="email" class="form-control" id="email" name="email"
-                                             placeholder="Your Email"pattern="^(.+)@(.+){2,}\.(.+){2,}$"
-                                              required><br>
-                                             <span id="email_error"> <br></span>
+                                             placeholder="Your Email" pattern="^(.+)@(.+){2,}\.(.+){2,}$" required><br>
+                                        <span id="email_error"> <br></span>
                                    </div>
 
                                    <div class="col-md-12 col-sm-12">
-                                        <label for="tel">Phone Number</label>
-                                        <input type="tel" class="form-control" id="tel" name="tel"
-                                             placeholder="Phone"  pattern="^\d{7,25}$" required><br>
-                                         <span id="tel_error"> <br></span>>
+                                        <ourServicesel for="tel">Phone Number</ourServicesel>
+                                        <input type="tel" class="form-control" id="tel" name="tel" placeholder="Phone"
+                                             pattern="^\d{7,25}$" required><br>
+                                        <span id="tel_error"> <br></span>>
 
-                                        <label for="message">Message</label>
+                                        <ourServicesel for="message">Message</ourServicesel>
                                         <textarea class="form-control" rows="5" id="message" name="message"
                                              placeholder="Message"></textarea>
-                                        <button type="submit" class="form-control" id="cf-submit" name="submit">Submit</button>
+                                        <button type="submit" class="form-control" id="cf-submit"
+                                             name="submit">Submit</button>
                                    </div>
                               </div>
                          </form>
                          <div id="msg">
-                                        </div>
+                         </div>
                     </div>
 
                </div>
           </div>
-  
+
      </section>
 
 
@@ -497,15 +668,18 @@
           <div class="container">
                <div class="row">
                     <div class="col-md-6 col-sm-12">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6055.871851704374!2d-74.023372!3d40.631295!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2455859c3ffff%3A0x18be282263a13a61!2s310%2076th%20St%2C%20Brooklyn%2C%20NY%2011209%2C%20USA!5e0!3m2!1sen!2sil!4v1592175282042!5m2!1sen!2sil" width="550" height="320" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                         <iframe
+                              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6055.871851704374!2d-74.023372!3d40.631295!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2455859c3ffff%3A0x18be282263a13a61!2s310%2076th%20St%2C%20Brooklyn%2C%20NY%2011209%2C%20USA!5e0!3m2!1sen!2sil!4v1592175282042!5m2!1sen!2sil"
+                              width="550" height="320" frameborder="0" style="border:0;" allowfullscreen=""
+                              aria-hidden="false" tabindex="0"></iframe>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                         <img class="outside-office-photo" src="images/office_outside.jpg" alt="">
+                    </div>
+               </div>
           </div>
-          <div class="col-md-6 col-sm-12">
-               <img class="outside-office-photo" src="images/office_outside.jpg" alt="">
-           </div>
-          </div>
-     </div>
-          </section>
- 
+     </section>
+
 
      <!-- FOOTER -->
      <footer data-stellar-background-ratio="5">
@@ -579,7 +753,7 @@
                          </div>
                          <div class="col-md-6 col-sm-6">
                               <div class="footer-link">
-                                   <a href="#">Laboratory Tests</a>
+                                   <a href="#">ourServicesoratory Tests</a>
                                    <a href="#">Departments</a>
                                    <a href="#">Insurance Policy</a>
                                    <a href="#">Careers</a>
@@ -607,8 +781,9 @@
      <script src="js/owl.carousel.min.js"></script>
      <script src="js/custom.js"></script>
      <script src="js/form_validation.js"></script>
- 
+     <script src="js/hexagon.js"></script>
+
+
 </body>
 
 </html>
-
