@@ -86,10 +86,10 @@
                                              class="caret"></b></a>
                                    <ul class="dropdown-menu multi-column columns-3">
                                         <div class="row">
-                                             <div class="col-sm-4">
+                                             <div class="col-sm-3">
                                                   <ul class="multi-column-dropdown">
                                                        <li>
-                                                            <h4>Action</h4>
+                                                            <h4>COSMETIC DENTISTRY</h4>
                                                        </li>
                                                        <li><a href="#">Another action</a></li>
                                                        <li><a href="#">Something else here</a></li>
@@ -99,10 +99,10 @@
                                                        <li><a href="#">One more separated link</a></li>
                                                   </ul>
                                              </div>
-                                             <div class="col-sm-4">
+                                             <div class="col-sm-3">
                                                   <ul class="multi-column-dropdown">
                                                        <li>
-                                                            <h4>Action</h4>
+                                                            <h4>PEDIATRIC DENTISTRY</h4>
                                                        </li>
                                                        <li><a href="#">Another action</a></li>
                                                        <li><a href="#">Something else here</a></li>
@@ -112,10 +112,23 @@
                                                        <li><a href="#">One more separated link</a></li>
                                                   </ul>
                                              </div>
-                                             <div class="col-sm-4">
+                                             <div class="col-sm-3">
                                                   <ul class="multi-column-dropdown">
                                                        <li>
-                                                            <h4>Action</h4>
+                                                            <h4>PERIODONTICS</h4>
+                                                       </li>
+                                                       <li><a href="#">Another action</a></li>
+                                                       <li><a href="#">Something else here</a></li>
+                                                       <li class="divider"></li>
+                                                       <li><a href="#">Separated link</a></li>
+                                                       <li class="divider"></li>
+                                                       <li><a href="#">One more separated link</a></li>
+                                                  </ul>
+                                             </div>
+                                             <div class="col-sm-3">
+                                                  <ul class="multi-column-dropdown">
+                                                       <li>
+                                                            <h4>ORTHODONTICS</h4>
                                                        </li>
                                                        <li><a href="#">Another action</a></li>
                                                        <li><a href="#">Something else here</a></li>
@@ -178,91 +191,6 @@
           </div>
      </section>
 
-     <!-- ABOUT -->
-     <section id="services">
-          <div class="container">
-               <div class="row">
-
-                    <div class="col-md-6 col-sm-6">
-                         <div class="about-info">
-                              <h2 class="wow fadeInUp" data-wow-delay="0.6s">Welcome to Absolute Dental Care PC</h2>
-                              <div class="wow fadeInUp" data-wow-delay="0.8s">
-                                   <!-- <p>Aenean luctus lobortis tellus, vel ornare enim molestie condimentum. Curabitur
-                                        lacinia nisi vitae velit volutpat venenatis.</p>
-                                   <p>Sed a dignissim lacus. Quisque fermentum est non orci commodo, a luctus urna
-                                        mattis. Ut placerat, diam a tempus vehicula.</p> -->
-                                   <div class="col-md-12 section-title text-center">
-                                        <h2>Services</h2>
-                                        <p>Est sale assum ut, in sed ludus convenire partiendo.</p>
-                                   </div>
-                                   <!--col-md-12-->
-
-                                   <div class="services-inner text-center">
-                                        <div class="col-sm-4 service">
-
-                                             <div class="service-content">
-                                                  <h3><strong>Web Development</strong></h3>
-                                                  <p>Regione probatus conclusionemque vel ne, assum congue in eos. Elitr
-                                                       accusata nam ne, est an altera maiorum, purto nostrum verterem
-                                                       pri et. Odio numquam appareat mea an, ne nam dicat putant, his an
-                                                       mazim paulo aperiam.</p>
-                                             </div>
-
-                                        </div>
-                                        <!--col-sm-3-->
-                                        <div class="col-sm-4 service">
-                                             <div class="service-content">
-                                                  <h3><strong>Web Designing</strong></h3>
-                                                  <p>Regione probatus ne nam dicat putant, his an mazim paulo aperiam.
-                                                  </p>
-                                             </div>
-                                        </div>
-                                        <!--col-sm-3-->
-                                        <div class="col-sm-4 service">
-                                             <div class="service-content">
-                                                  <h3><strong>SEO</strong></h3>
-                                                  <p>
-                                                       Regione probatus conclusionemque vel ne, assum congue in eos. his
-                                                       an mazim paulo aperiam.
-                                                  </p>
-                                             </div>
-                                        </div>
-                                        <!--col-sm-3-->
-                                        <div class="col-sm-4 service">
-                                             <div class="service-content">
-                                                  <h3><strong>Branding</strong></h3>
-                                                  <p>Regione ne nam dicat putant, his an mazim paulo aperiam.</p>
-                                             </div>
-                                        </div>
-                                        <!--col-sm-3-->
-                                        <div class="col-sm-4 service">
-                                             <div class="service-content">
-                                                  <h3><strong>Social Media</strong></h3>
-                                                  <p>Odio numquam appareat mea an, ne nam dicat putant, his an mazim
-                                                       paulo aperiam.</p>
-                                             </div>
-                                        </div>
-                                        <!--col-sm-3-->
-                                        <div class="col-sm-4 service">
-                                             <div class="service-content">
-                                                  <h3><strong>eCommerce</strong></h3>
-                                                  <p>Regione probatus conclusionemque vel ne, assum congue in eos. Elitr
-                                                       accusata nam ne, est an altera maiorum, purto nostrum verterem
-                                                       pri et. </p>
-                                             </div>
-                                        </div>
-                                        <!--col-sm-3-->
-                                   </div>
-                                   <!--services-inner-->
-
-                              </div>
-
-                         </div>
-                    </div>
-
-               </div>
-          </div>
-     </section>
 
 <!-- OUR SERVICES -->
      <section id="ourServices">
@@ -289,8 +217,9 @@
                                         <div class="hexagon hexagon2">
                                              <div class="hexagon-in1">
                                                   <div class="hexagon-in2"
+                                                  class="tablinks" onmouseover="showInfo(event, 'cosmetic_dentistry')"
                                                        style="background-image: url(images/human-teeth.jpg);">
-                                                       <div class="centered"><button class="tablinks" onmouseover="showInfo(event, 'cosmetic_dentistry')">COSMETIC DENTISTRY</button></div>
+                                                       <div class="centered">COSMETIC DENTISTRY</div>
                                                   </div>
                                              </div>
                                         </div>
@@ -299,8 +228,9 @@
                                         <div class="hexagon hexagon2">
                                              <div class="hexagon-in1">
                                                   <div class="hexagon-in2"
+                                                  class="tablinks" onmouseover="showInfo(event, 'orthodontics')"
                                                        style="background-image: url(images/human-teeth.jpg);">
-                                                       <div class="centered"><button class="tablinks" onmouseover="showInfo(event, 'orthodontics')">ORTHODONTICS</button></div>
+                                                       <div class="centered">ORTHODONTICS</div>
                                                   </div>
                                              </div>
                                         </div>
@@ -317,8 +247,9 @@
                                         <div class="hexagon hexagon2">
                                              <div class="hexagon-in1">
                                                   <div class="hexagon-in2"
+                                                  class="tablinks" onmouseover="showInfo(event, 'family_dentistry')"
                                                        style="background-image: url(images/human-teeth.jpg);">
-                                                       <div class="centered"><button class="tablinks" onmouseover="showInfo(event, 'family_dentistry')">FAMILY DENTISTRY</button></div>
+                                                       <div class="centered"> FAMILY DENTISTRY</div>
                                                   </div>
                                              </div>
                                         </div>
@@ -335,8 +266,9 @@
                                         <div class="hexagon hexagon2">
                                              <div class="hexagon-in1">
                                                   <div class="hexagon-in2"
+                                                  class="tablinks" onmouseover="showInfo(event, 'emergencies')"
                                                        style="background-image: url(images/human-teeth.jpg);">
-                                                       <div class="centered"><button class="tablinks" onmouseover="showInfo(event, 'emergencies')">EMERGENCIES</button></div>
+                                                       <div class="centered">EMERGENCIES</div>
                                                   </div>
                                              </div>
                                         </div>
@@ -353,23 +285,26 @@
                                         <div class="hexagon hexagon2">
                                              <div class="hexagon-in1">
                                                   <div class="hexagon-in2"
+                                                  class="tablinks" onmouseover="showInfo(event, 'periodontics')"
                                                        style="background-image: url(images/human-teeth.jpg);">
-                                                       <div class="centered"><button class="tablinks" onmouseover="showInfo(event, 'periodontics')">PERIODONTICS</button></div>
+                                                       <div class="centered">PERIODONTICS</div>
                                                   </div>
                                              </div>
                                         </div>
                                    </div>
                                    <div class="ourServices_item">
                                         <div class="hexagon hexagon2">
+                                            
                                              <div class="hexagon-in1">
                                                   <div class="hexagon-in2"
+                                                   class="tablinks" onmouseover="showInfo(event, 'dental_implants')" 
                                                        style="background-image: url(images/human-teeth.jpg);">
-                                                       <div class="centered"><button class="tablinks" onmouseover="showInfo(event, 'dental_implants')">DENTAL IMPLANTS</button></div>
-                                                  </div>
+                                                       <div class="centered">DENTAL IMPLANTS</div>
+
+                                                  
                                              </div>
                                         </div>
                                    </div>
-
 
                               </article>
                               </div>
@@ -380,7 +315,19 @@
                                              
                                  <div id="dental_implants" class="more_info">
                                    <h3>DENTAL IMPLANTS</h3>
-                                   <p>London is the capital city of England.</p>
+                                   <p>Teeth implants usually consist of three parts:
+
+                                        The implant screw: Gets permanently attached to your jaw, serving as the root for new teeth.
+                                        
+                                        The abutment: A connector that gets attached to the implant, holds the new tooth or a set of teeth.
+                                        
+                                        The crown: A prosthetic tooth that will be visible.
+                                        
+                                        Dental implants are replacement teeth made from medical-grade titanium alloy which is a metal that is highly biocompatible with your body. Our leading dentists will surgically insert and fuse the implant post into the jawbone, artificially replacing a real tooth root.
+                                        
+                                        Once the post integrates and bonds with the bone around it (osseointegration), the abutment gets installed, which will hold the crown. Then, our skilled periodontist will cap the post and abutment with a tooth-colored, natural-looking dental crown, dentures or bridges.
+                                        
+                                        Artificial teeth will help you smile more, speak more clearly, and chew better.</p>
                                  </div>
                                  
                                  <div id="periodontics" class="more_info">
@@ -415,7 +362,7 @@
 
      </section>
 
-     <!-- TEAM -->
+     <!-- MEET DR GELMAN -->
      <section id="team" data-stellar-background-ratio="1">
           <div class="container">
                <div class="row">
@@ -497,7 +444,7 @@
      </section>
 
 
-     <!-- NEWS -->
+     <!-- CLIENT REVIEWS -->
      <section id="news" data-stellar-background-ratio="2.5">
           <div class="container">
                <div class="row">
