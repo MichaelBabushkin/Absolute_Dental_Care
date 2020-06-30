@@ -194,7 +194,7 @@
 
 <!-- OUR SERVICES -->
      <section id="ourServices">
-          <div class="container">
+          <!-- <div class="container"> -->
                <h2 class="wow fadeInUp" data-wow-delay="0.6s">Our Services</h2>
                               <div class="wow fadeInUp" data-wow-delay="0.8s"> </div>
                <div class="row">
@@ -358,7 +358,7 @@
                                                             
                          </div>
                     </div>
-               </div>
+               <!-- </div> -->
 
      </section>
 
