@@ -60,8 +60,7 @@ if (($name != NULL) && ($tel != NULL) && ($email != NULL)) {
 		$email_message .= "Received at: ". $created;
 	}
 	
-		// mail($mail_to, $subject, $email_message);	
-		mail("absolutedentalny@gmail.com", "subject", "email_message");
+		 mail($mail_to, $subject, $email_message);	
 
 } 
 
