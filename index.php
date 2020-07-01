@@ -562,12 +562,12 @@
 
                     <div class="col-md-6 col-sm-6">
                          <!-- CONTACT FORM HERE -->
-                         <form id="appointment-form" role="form" method="post" action="contact-form.php">
+                         <form id="appointment-form" role="form" method="post" action="contact_form.php">
 
                               <!-- SECTION TITLE -->
                               <div class="section-title wow fadeInUp" data-wow-delay="0.4s">
                                    <h2>Quick Contact</h2>
-                                   <h3>Contact us today, and get reply with in 24 hours!</h3>
+                                   <h3>Contact us today, and get reply within 24 hours!</h3>
 
                               </div>
 
