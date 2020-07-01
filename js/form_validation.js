@@ -68,7 +68,7 @@ var Contact = (function () {
                 //following code is used here instead of the $.post function 
                 //and should be deleted if you are using it,
                 //just inserted this for presentation since GH hosting doesn't support php
-                $("#msg").append('<h3 class="pt-1">Thank you, ' + name +  '. The message was successfully sent.</h3><hr>');
+                // $("#msg").append('<h3 class="pt-1">Thank you, ' + name +  '. The message was successfully sent.</h3><hr>');
 
 
                 $('form').delay(5000).slideDown();
