@@ -34,7 +34,9 @@ h1 {
 	padding: 0px 12px;
 	border: 1px solid #ccc;
 	width: 100%;
-	border-left: none;
+	border-left: 2px solid;
+	border-right: 2px solid;
+	margin-left:-20px;
 	display: none;
 }
 .more_info h3{
@@ -64,11 +66,13 @@ h1 {
 	top: 39%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+	font: 2em sans-serif;
+	color: red;
   }
 
 .ourServices_item {
-	width: 200px;
-	height: 230px;
+	width: 220px;
+	height: 270px;
 	position: relative;
 	display: inline-block;
 }
@@ -115,7 +119,7 @@ h1 {
 
 	-webkit-background-size: 125%;
 	-moz-background-size: 125%;
-	background-size: 125%;
+	/* background-size: 125%; */
 	visibility: visible;
 
 	-webkit-transform: rotate(-60deg);
@@ -166,19 +170,28 @@ h1 {
 }
 
 #ourServices article {
-	padding-top: 1em;
-	width: 820px;
+	padding-top: 3	em;
+	width: 950px;
 	margin: 0 ;
 }
 
 
 
 .ourServices_item:nth-child(7n-2) {
-	margin-left: 101px;
+	margin-left: 95px;
+}
+.ourServices_item:nth-child(3) {
+	margin-left: 25px;
 }
 
 .ourServices_item:nth-child(n+5) {
-	margin-top: -55px;
+	margin-top: -60px;
+}
+.ourServices_item:nth-child(7) {
+	margin-left: 55px;
+}
+.ourServices_item:nth-child(10) {
+	margin-left: 25px;
 }
 
 @media (max-width: 1015px) {

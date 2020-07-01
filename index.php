@@ -202,7 +202,7 @@
                    
                          <!-- <div class="about-info"> -->
                               
-                              <div class="col-md-8 col-sm-8">
+                              <div class="col-md-7 col-sm-7">
                               <article>
 
                                    <div class="ourServices_item">
@@ -248,26 +248,26 @@
                                              <div class="hexagon-in1">
                                                   <div class="hexagon-in2"
                                                   class="tablinks" onmouseover="showInfo(event, 'family_dentistry')"
-                                                       style="background-image: url(images/human-teeth.jpg);">
+                                                       style="background-image: url(images/family.jpg); ">
                                                        <div class="centered"> FAMILY DENTISTRY</div>
                                                   </div>
                                              </div>
                                         </div>
                                    </div>
                                    <div class="ourServices_item">
-                                        <div class="hexagon hexagon2">
+                                        <!-- <div class="hexagon hexagon2">
                                              <div class="hexagon-in1">
                                                   <div class="hexagon-in4"  style="background-image: url(nav_logo.png);">
                                                   </div>
                                              </div>
-                                        </div>
+                                        </div> -->
                                    </div>
                                    <div class="ourServices_item">
                                         <div class="hexagon hexagon2">
                                              <div class="hexagon-in1">
                                                   <div class="hexagon-in2"
                                                   class="tablinks" onmouseover="showInfo(event, 'emergencies')"
-                                                       style="background-image: url(images/human-teeth.jpg);">
+                                                       style="background-image: url(images/emergency.jpg);">
                                                        <div class="centered">EMERGENCIES</div>
                                                   </div>
                                              </div>
@@ -310,11 +310,11 @@
                               </div>
   
                          <!-- </div> -->
-                         <div class="col-md-4 col-sm-4">
+                         <div class="col-md-5 col-sm-5">
                               <div class="more_info"></div>
                                              
                                  <div id="dental_implants" class="more_info">
-                                   <h3>DENTAL IMPLANTS</h3>
+                                   <h3>DENTAL      IMPLANTS</h3>
                                    <p>Teeth implants usually consist of three parts:
 
                                         The implant screw: Gets permanently attached to your jaw, serving as the root for new teeth.
@@ -590,7 +590,7 @@
                                         <ourServicesel for="tel">Phone Number</ourServicesel>
                                         <input type="tel" class="form-control" id="tel" name="tel" placeholder="Phone"
                                              pattern="^\d{7,25}$" required><br>
-                                        <span id="tel_error"> <br></span>>
+                                        <span id="tel_error"> <br></span>
 
                                         <ourServicesel for="message">Message</ourServicesel>
                                         <textarea class="form-control" rows="5" id="message" name="message"
