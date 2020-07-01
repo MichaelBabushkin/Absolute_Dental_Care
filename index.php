@@ -192,7 +192,7 @@
      </section>
 
 
-<!-- OUR SERVICES -->
+     <!-- OUR SERVICES -->
      <section id="ourServices">
           <!-- <div class="container"> -->
                <h2 class="wow fadeInUp" data-wow-delay="0.6s">Our Services</h2>
@@ -562,7 +562,7 @@
 
                     <div class="col-md-6 col-sm-6">
                          <!-- CONTACT FORM HERE -->
-                         <form id="appointment-form" role="form" method="post" action="contact-form-handler.php">
+                         <form id="appointment-form" role="form" method="post" action="contact-form.php">
 
                               <!-- SECTION TITLE -->
                               <div class="section-title wow fadeInUp" data-wow-delay="0.4s">

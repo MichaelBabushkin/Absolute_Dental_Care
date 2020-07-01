@@ -42,7 +42,7 @@ if (!empty ($_POST['message'])) {
 		
 if (($name != NULL) && ($tel != NULL) && ($email != NULL)) {
 	echo '<h3 class="pt-1">Thank you, ' . $name . '. The message was successfully sent.</h3><hr>';
-	date_default_timezone_set('Israel');
+	date_default_timezone_set('Israel'); ///// Change to US Time//////
 
 	$mail_to = "absolutedentalny@gmail.com"; // your email here!
 	$subject = "New email from Contact webpage.";
