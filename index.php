@@ -14,16 +14,22 @@
 
      <link rel="icon" href="images/logo.png">
      <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap-grid.min.css">
-     <link rel="stylesheet" href="css/bootstrap.min.css">
+
+     <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
      <link rel="stylesheet" href="css/font-awesome.min.css">
      <link rel="stylesheet" href="css/animate.css">
      <link rel="stylesheet" href="css/owl.carousel.css">
      <link rel="stylesheet" href="css/owl.theme.default.min.css">
      <link rel="stylesheet" href="css/hexagon.css">
-
+     <link rel="stylesheet" href="css/terms_modal.css">
 
      <!-- MAIN CSS -->
      <link rel="stylesheet" href="css/tooplate-style.css">
+     <!-- CSS only -->
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+
 
 </head>
 
@@ -627,6 +633,35 @@
           </div>
      </section>
 
+     
+          <!-- class="btn btn-settings" data-backdrop="false" -->
+
+
+     <!-- <a href="#myModal"  data-toggle="modal">Open Modal</a> -->
+
+     <div id="myModal" class="modal fade">
+         <div class="modal-dialog">
+             <div class="modal-content">
+                 <div class="modal-header">
+                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                      <h4 class="modal-title">Terms&Conditions</h4>  
+     
+                 </div>
+                 <div class="modal-body">
+                     <h3>Lorem Ipsum</h3>
+                     <p>Praesent non dictum dolor, vitae interdum erat. Nam quis consectetur mi. In consequat condimentum tortor, et lobortis est convallis ac. Quisque volutpat posuere dui, pellentesque vulputate dolor. Morbi dapibus orci eu est consectetur, sed pretium mauris laoreet. Pellentesque sodales ante non justo viverra, sit amet consectetur nisl vulputate.</p>
+                       <p>Praesent non dictum dolor, vitae interdum erat. Nam quis consectetur mi. In consequat condimentum tortor, et lobortis est convallis ac. Quisque volutpat posuere dui, pellentesque vulputate dolor. Morbi dapibus orci eu est consectetur, sed pretium mauris laoreet. Pellentesque sodales ante non justo viverra, sit amet consectetur nisl vulputate.</p>
+                 </div>
+                 <div class="modal-footer">
+                     
+                     <button id="loadpage" type="button" class="btn btn-primary">OK</button>
+                 </div>
+             </div>
+             <!-- /.modal-content -->
+         </div>
+         <!-- /.modal-dialog -->
+     </div>
+     <!-- /.modal -->
 
      <!-- FOOTER -->
      <footer data-stellar-background-ratio="5">
@@ -684,26 +719,26 @@
                                    <p>Sunday <span>Closed</span></p>
                               </div>
 
-                              <ul class="social-icon">
+                              <!-- <ul class="social-icon">
                                    <li><a href="#" class="fa fa-facebook-square" attr="facebook icon"></a></li>
                                    <li><a href="#" class="fa fa-twitter"></a></li>
                                    <li><a href="#" class="fa fa-instagram"></a></li>
-                              </ul>
+                              </ul> -->
                          </div>
                     </div>
 
                     <div class="col-md-12 col-sm-12 border-top">
                          <div class="col-md-4 col-sm-6">
                               <div class="copyright-text">
-                                   <p>Copyright &copy; 2020 Your Company</p>
+                                   <p>Copyright &copy; Michael Babushkin Software Solutions 2020</p>
                               </div>
                          </div>
                          <div class="col-md-6 col-sm-6">
                               <div class="footer-link">
-                                   <a href="#">ourServicesoratory Tests</a>
+                                   <a href="#">Hosted on WebMarie</a>
                                    <a href="#">Departments</a>
                                    <a href="#">Insurance Policy</a>
-                                   <a href="#">Careers</a>
+                                   <a href="#myModal"  data-toggle="modal">Terms&Conditions</a>
                               </div>
                          </div>
                          <div class="col-md-2 col-sm-2 text-align-center">
@@ -719,18 +754,24 @@
      </footer>
 
      <!-- SCRIPTS -->
-     <script src="js/jquery.js"></script>
-     <script src="bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>
-     <script src="js/jquery.sticky.js"></script>
-     <script src="js/jquery.stellar.min.js"></script>
-     <script src="js/wow.min.js"></script>
-     <script src="js/smoothscroll.js"></script>
-     <script src="js/owl.carousel.min.js"></script>
-     <script src="js/custom.js"></script>
-     <script src="js/form_validation.js"></script>
-     <script src="js/hexagon.js"></script>
+      <script src="js/jquery.js"></script>
+     <!-- <script src="bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>  -->
+    
 
-
+  <!-- JS, Popper.js, and jQuery -->
+  <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script> -->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script> -->
+  <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script> -->
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script src="js/smoothscroll.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/custom.js"></script>
+  <script src="js/form_validation.js"></script>
+  <script src="js/hexagon.js"></script>
+  <script src="js/terms_modal.js"></script>
+  <script src="js/jquery.sticky.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
 </body>
 
 </html>

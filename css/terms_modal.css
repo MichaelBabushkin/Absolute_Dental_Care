@@ -1,0 +1,46 @@
+/* 
+  button.btn-settings:active {
+    color: white;
+  }  */
+  .modal {
+      overflow: hidden;
+     overflow-y: initial !important;
+     padding: 50px 20% 0 100px;
+  }
+  .modal-dialog {
+      margin-right: 0;
+      margin-left: 0;
+  }
+  .modal-header {
+    height:50px;
+    padding: 20px;
+    background-color:#18456b;
+    color:white;
+  }
+  .modal-title {
+    margin-top:-10px;
+    font-size:16px;
+  }
+  .modal-header .close {
+    margin-top:-20px;
+    color:#fff;
+  }
+  .modal-body {
+    color:#888;
+    padding: 5px 35px 20px;
+        height: 250px;
+      overflow-y: auto;
+  }
+  .modal-body h3 {
+    text-align: center;
+  }
+  .modal-body p {
+    padding-top:10px;
+    font-size: 1.1em;
+  }
+  .modal-content{
+      width: 100%;
+      margin: auto;
+  }
+  
+  
