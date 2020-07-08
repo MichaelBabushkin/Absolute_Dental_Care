@@ -219,13 +219,13 @@
                                              </div>
                                         </div>
                                    </div>
-                                   <div class="ourServices_item">
+
+                                   <div class="ourServices_item" >
                                         <div class="hexagon hexagon2">
                                              <div class="hexagon-in1">
-                                                  <div class="hexagon-in2"
-                                                  class="tablinks" onmouseover="showInfo(event, 'cosmetic_dentistry')"
+                                                  <div class="hexagon-in2" id="c_dentistry"
+                                                  class="tablinks" onmouseover="showInfo(event, 'cosmetic_dentistry','COSMETIC DENTISTRY')"
                                                        style="background-image: url(images/human-teeth.jpg);">
-                                                       <div class="centered">COSMETIC DENTISTRY</div>
                                                   </div>
                                              </div>
                                         </div>
@@ -233,10 +233,9 @@
                                    <div class="ourServices_item">
                                         <div class="hexagon hexagon2">
                                              <div class="hexagon-in1">
-                                                  <div class="hexagon-in2"
-                                                  class="tablinks" onmouseover="showInfo(event, 'orthodontics')"
-                                                       style="background-image: url(images/human-teeth.jpg);">
-                                                       <div class="centered">ORTHODONTICS</div>
+                                                  <div class="hexagon-in2" id="ortho"
+                                                  class="tablinks" onmouseover="showInfo(event, 'orthodontics','ORTHODONTICS')"
+                                                       style="background-image: url(images/orthodontics.png);">
                                                   </div>
                                              </div>
                                         </div>
@@ -252,29 +251,26 @@
                                    <div class="ourServices_item">
                                         <div class="hexagon hexagon2">
                                              <div class="hexagon-in1">
-                                                  <div class="hexagon-in2"
-                                                  class="tablinks" onmouseover="showInfo(event, 'family_dentistry')"
+                                                  <div class="hexagon-in2" id="f_dentistry"
+                                                  class="tablinks" onmouseover="showInfo(event, 'family_dentistry','FAMILY DENTISTRY')"
                                                        style="background-image: url(images/family.jpg); ">
-                                                       <div class="centered"> FAMILY DENTISTRY</div>
                                                   </div>
                                              </div>
                                         </div>
                                    </div>
                                    <div class="ourServices_item">
-                                        <!-- <div class="hexagon hexagon2">
-                                             <div class="hexagon-in1">
-                                                  <div class="hexagon-in4"  style="background-image: url(nav_logo.png);">
-                                                  </div>
-                                             </div>
-                                        </div> -->
+                                        <div class="hexagon2">
+
+                                                  <div id="serviceName" ></div>
+                                                  
                                    </div>
+                              </div> 
                                    <div class="ourServices_item">
                                         <div class="hexagon hexagon2">
                                              <div class="hexagon-in1">
-                                                  <div class="hexagon-in2"
-                                                  class="tablinks" onmouseover="showInfo(event, 'emergencies')"
+                                                  <div class="hexagon-in2" id="emergency"
+                                                  class="tablinks" onmouseover="showInfo(event, 'emergencies','EMERGENCIES')"
                                                        style="background-image: url(images/emergency.jpg);">
-                                                       <div class="centered">EMERGENCIES</div>
                                                   </div>
                                              </div>
                                         </div>
@@ -290,10 +286,9 @@
                                    <div class="ourServices_item">
                                         <div class="hexagon hexagon2">
                                              <div class="hexagon-in1">
-                                                  <div class="hexagon-in2"
-                                                  class="tablinks" onmouseover="showInfo(event, 'periodontics')"
-                                                       style="background-image: url(images/human-teeth.jpg);">
-                                                       <div class="centered">PERIODONTICS</div>
+                                                  <div class="hexagon-in2" id="periodon"
+                                                  class="tablinks" onmouseover="showInfo(event, 'periodontics','PERIODONTICS')"
+                                                       style="background-image: url(images/periodontics.jpg);">
                                                   </div>
                                              </div>
                                         </div>
@@ -302,10 +297,9 @@
                                         <div class="hexagon hexagon2">
                                             
                                              <div class="hexagon-in1">
-                                                  <div class="hexagon-in2"
-                                                   class="tablinks" onmouseover="showInfo(event, 'dental_implants')" 
-                                                       style="background-image: url(images/human-teeth.jpg);">
-                                                       <div class="centered">DENTAL IMPLANTS</div>
+                                                  <div class="hexagon-in2" id="implants"
+                                                   class="tablinks" onmouseover="showInfo(event, 'dental_implants','DENTAL IMPLANTS')" 
+                                                       style="background-image: url(images/implants.jpg);">
 
                                                   
                                              </div>
@@ -633,12 +627,7 @@
           </div>
      </section>
 
-     
-          <!-- class="btn btn-settings" data-backdrop="false" -->
-
-
-     <!-- <a href="#myModal"  data-toggle="modal">Open Modal</a> -->
-
+     <!-- MODAL -->
      <div id="myModal" class="modal fade">
          <div class="modal-dialog">
              <div class="modal-content">
@@ -654,7 +643,7 @@
                  </div>
                  <div class="modal-footer">
                      
-                     <button id="loadpage" type="button" class="btn btn-primary">OK</button>
+                     <button id="loadpage" data-dismiss="modal" type="button" class="btn btn-primary">OK</button>
                  </div>
              </div>
              <!-- /.modal-content -->
