@@ -26,8 +26,9 @@
      <!-- MAIN CSS -->
      <link rel="stylesheet" href="css/tooplate-style.css">
      <!-- CSS only -->
-<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+     <!-- Latest compiled and minified CSS -->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+          integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
 
 
 
@@ -134,14 +135,14 @@
                                              <div class="col-sm-3">
                                                   <ul class="multi-column-dropdown">
                                                        <li>
-                                                            <h4>ORTHODONTICS</h4>
+                                                            <h4>DENTAL IMPLANTS</h4>
                                                        </li>
                                                        <li><a href="#">Another action</a></li>
                                                        <li><a href="#">Something else here</a></li>
                                                        <li class="divider"></li>
                                                        <li><a href="#">Separated link</a></li>
-                                                       <li class="divider"></li>
-                                                       <li><a href="#">One more separated link</a></li>
+                                                       <!-- <li class="divider"></li> -->
+                                                       <li><a href="dental_implants.html">Read more </a></li>
                                                   </ul>
                                              </div>
                                         </div>
@@ -169,7 +170,6 @@
                          <div class="item item-first">
                               <div class="caption">
                                    <div class="col-md-offset-1 col-md-12">
-                                        <!-- <h3>Professional Staff</h3> -->
 
                                    </div>
                               </div>
@@ -178,7 +178,6 @@
                          <div class="item item-second">
                               <div class="caption">
                                    <div class="col-md-offset-1 col-md-12">
-                                        <!-- <h3>Aenean luctus lobortis tellus</h3> -->
 
                                    </div>
                               </div>
@@ -187,178 +186,309 @@
                          <div class="item item-third">
                               <div class="caption">
                                    <div class="col-md-offset-1 col-md-12">
-                                        <!-- <h3>Pellentesque nec libero nisi</h3> -->
+
                                    </div>
                               </div>
                          </div>
                     </div>
 
                </div>
-          </div>
+               <div class="insurance">
+                    <div class="row">
+                         <div class="col-md-4 col-sm-4">
+                              <h3 class="dental_title">Accepted Dental Insurance</h3>
+                              <p>We will process and submit all insurance claims and pre-authorizations for you. Your
+                                   insurance company can then pay us directly, and/or we will bill for any appropriate
+                                   balance. Our Prevention, Diagnosis or Treatment Planning is guaranteed to be without
+                                   regard to the limitations imposed by your insurance coverage.</p>
+                              <p>PLEASE NOTE: We also accept many other insurances (All major insurances).
+                                   Please contact the office for more information.</p>                                   
+                         </div>
+                         <div class="col-md-8 col-sm-8">
+                              <div class="card">
+                                   <div class="image-grid-container">
+                                        <img src="images/dental insurance/aetna.png">
+                                        <img src="images/dental insurance/bluecross.png">
+                                        <img src="images/dental insurance/cigna.png">
+                                        <img src="images/dental insurance/concordia.png">
+                                        <img src="images/dental insurance/delta.png">
+                                        <img src="images/dental insurance/guardian.png">
+                                        <img src="images/dental insurance/metlife.png">
+                                        <img src="images/dental insurance/united.png">
+
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
      </section>
 
 
      <!-- OUR SERVICES -->
      <section id="ourServices">
           <!-- <div class="container"> -->
-               <h2 class="wow fadeInUp" data-wow-delay="0.6s">Our Services</h2>
-                              <div class="wow fadeInUp" data-wow-delay="0.8s"> </div>
-               <div class="row">
+          <h2 class="wow fadeInUp" data-wow-delay="0.6s">Our Services</h2>
+          <div class="wow fadeInUp" data-wow-delay="0.8s"> </div>
+          <div class="row">
 
-                   
-                         <!-- <div class="about-info"> -->
-                              
-                              <div class="col-md-7 col-sm-7">
-                              <article>
 
-                                   <div class="ourServices_item">
-                                        <div class="hexagon hexagon2">
-                                             <div class="hexagon-in1">
-                                                  <div class="hexagon-in3">
-                                                  </div>
-                                             </div>
-                                        </div>
-                                   </div>
+               <!-- <div class="about-info"> -->
 
-                                   <div class="ourServices_item" >
-                                        <div class="hexagon hexagon2">
-                                             <div class="hexagon-in1">
-                                                  <div class="hexagon-in2" id="c_dentistry"
-                                                  class="tablinks" onmouseover="showInfo(event, 'cosmetic_dentistry','COSMETIC DENTISTRY')"
-                                                       style="background-image: url(images/human-teeth.jpg);">
-                                                  </div>
-                                             </div>
-                                        </div>
-                                   </div>
-                                   <div class="ourServices_item">
-                                        <div class="hexagon hexagon2">
-                                             <div class="hexagon-in1">
-                                                  <div class="hexagon-in2" id="ortho"
-                                                  class="tablinks" onmouseover="showInfo(event, 'orthodontics','ORTHODONTICS')"
-                                                       style="background-image: url(images/orthodontics.png);">
-                                                  </div>
-                                             </div>
-                                        </div>
-                                   </div>
-                                   <div class="ourServices_item">
-                                        <div class="hexagon hexagon2">
-                                             <div class="hexagon-in1">
-                                                  <div class="hexagon-in3">
-                                                  </div>
-                                             </div>
-                                        </div>
-                                   </div>
-                                   <div class="ourServices_item">
-                                        <div class="hexagon hexagon2">
-                                             <div class="hexagon-in1">
-                                                  <div class="hexagon-in2" id="f_dentistry"
-                                                  class="tablinks" onmouseover="showInfo(event, 'family_dentistry','FAMILY DENTISTRY')"
-                                                       style="background-image: url(images/family.jpg); ">
-                                                  </div>
-                                             </div>
-                                        </div>
-                                   </div>
-                                   <div class="ourServices_item">
-                                        <div class="hexagon2">
+               <div class="col-md-7 col-sm-7">
+                    <article>
 
-                                                  <div id="serviceName" ></div>
-                                                  
-                                   </div>
-                              </div> 
-                                   <div class="ourServices_item">
-                                        <div class="hexagon hexagon2">
-                                             <div class="hexagon-in1">
-                                                  <div class="hexagon-in2" id="emergency"
-                                                  class="tablinks" onmouseover="showInfo(event, 'emergencies','EMERGENCIES')"
-                                                       style="background-image: url(images/emergency.jpg);">
-                                                  </div>
-                                             </div>
+                         <div class="ourServices_item">
+                              <div class="hexagon hexagon2">
+                                   <div class="hexagon-in1">
+                                        <div class="hexagon-in3">
                                         </div>
                                    </div>
-                                   <div class="ourServices_item">
-                                        <div class="hexagon hexagon2">
-                                             <div class="hexagon-in1">
-                                                  <div class="hexagon-in3">
-                                                  </div>
-                                             </div>
-                                        </div>
-                                   </div>
-                                   <div class="ourServices_item">
-                                        <div class="hexagon hexagon2">
-                                             <div class="hexagon-in1">
-                                                  <div class="hexagon-in2" id="periodon"
-                                                  class="tablinks" onmouseover="showInfo(event, 'periodontics','PERIODONTICS')"
-                                                       style="background-image: url(images/periodontics.jpg);">
-                                                  </div>
-                                             </div>
-                                        </div>
-                                   </div>
-                                   <div class="ourServices_item">
-                                        <div class="hexagon hexagon2">
-                                            
-                                             <div class="hexagon-in1">
-                                                  <div class="hexagon-in2" id="implants"
-                                                   class="tablinks" onmouseover="showInfo(event, 'dental_implants','DENTAL IMPLANTS')" 
-                                                       style="background-image: url(images/implants.jpg);">
-
-                                                  
-                                             </div>
-                                        </div>
-                                   </div>
-
-                              </article>
                               </div>
-  
-                         <!-- </div> -->
-                         <div class="col-md-5 col-sm-5">
-                              <div class="more_info"></div>
-                                             
-                                 <div id="dental_implants" class="more_info">
-                                   <h3>DENTAL      IMPLANTS</h3>
-                                   <p>Teeth implants usually consist of three parts:
-
-                                        The implant screw: Gets permanently attached to your jaw, serving as the root for new teeth.
-                                        
-                                        The abutment: A connector that gets attached to the implant, holds the new tooth or a set of teeth.
-                                        
-                                        The crown: A prosthetic tooth that will be visible.
-                                        
-                                        Dental implants are replacement teeth made from medical-grade titanium alloy which is a metal that is highly biocompatible with your body. Our leading dentists will surgically insert and fuse the implant post into the jawbone, artificially replacing a real tooth root.
-                                        
-                                        Once the post integrates and bonds with the bone around it (osseointegration), the abutment gets installed, which will hold the crown. Then, our skilled periodontist will cap the post and abutment with a tooth-colored, natural-looking dental crown, dentures or bridges.
-                                        
-                                        Artificial teeth will help you smile more, speak more clearly, and chew better.</p>
-                                 </div>
-                                 
-                                 <div id="periodontics" class="more_info">
-                                   <h3>PERIODONTICS</h3>
-                                   <p>Paris is the capital of France.</p> 
-                                 </div>
-                                 
-                                 <div id="emergencies" class="more_info">
-                                   <h3>EMERGENCIES</h3>
-                                   <p>Tokyo is the capital of Japan.</p>
-                                 </div>
-                                 <div id="orthodontics" class="more_info">
-                                   <h3>ORTHODONTICS</h3>
-                                   <p>London is the capital city of England.</p>
-                                 </div>
-                                 
-                                 <div id="family_dentistry" class="more_info">
-                                   <h3>FAMILY DENTISTRY</h3>
-                                   <p>Paris is the capital of France.</p> 
-                                 </div>
-                                 
-                                 <div id="cosmetic_dentistry" class="more_info">
-                                   <h3>COSMETIC DENTISTRY</h3>
-                                   <p>Tokyo is the capital of Japan.</p>
-                                 </div>
-                                 <div class="clearfix"></div>                       
-                                                            
-                                                            
                          </div>
-                    </div>
+
+                         <div class="ourServices_item">
+                              <div class="hexagon hexagon2">
+                                   <div class="hexagon-in1">
+                                        <div class="hexagon-in2" id="c_dentistry" class="tablinks"
+                                             onmouseover="showInfo(event, 'cosmetic_dentistry','COSMETIC DENTISTRY')"
+                                             style="background-image: url(images/human-teeth.jpg);">
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+                         <div class="ourServices_item">
+                              <div class="hexagon hexagon2">
+                                   <div class="hexagon-in1">
+                                        <div class="hexagon-in2" id="ortho" class="tablinks"
+                                             onmouseover="showInfo(event, 'orthodontics','ORTHODONTICS')"
+                                             style="background-image: url(images/orthodontics.png);">
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+                         <div class="ourServices_item">
+                              <div class="hexagon hexagon2">
+                                   <div class="hexagon-in1">
+                                        <div class="hexagon-in3">
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+                         <div class="ourServices_item">
+                              <div class="hexagon hexagon2">
+                                   <div class="hexagon-in1">
+                                        <div class="hexagon-in2" id="f_dentistry" class="tablinks"
+                                             onmouseover="showInfo(event, 'family_dentistry','FAMILY DENTISTRY')"
+                                             style="background-image: url(images/family.jpg); ">
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+                         <div class="ourServices_item">
+                              <div class="hexagon2">
+
+                                   <div id="serviceName"></div>
+
+                              </div>
+                         </div>
+                         <div class="ourServices_item">
+                              <div class="hexagon hexagon2">
+                                   <div class="hexagon-in1">
+                                        <div class="hexagon-in2" id="emergency" class="tablinks"
+                                             onmouseover="showInfo(event, 'emergencies','EMERGENCIES')"
+                                             style="background-image: url(images/emergency.jpg);">
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+                         <div class="ourServices_item">
+                              <div class="hexagon hexagon2">
+                                   <div class="hexagon-in1">
+                                        <div class="hexagon-in3">
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+                         <div class="ourServices_item">
+                              <div class="hexagon hexagon2">
+                                   <div class="hexagon-in1">
+                                        <div class="hexagon-in2" id="periodon" class="tablinks"
+                                             onmouseover="showInfo(event, 'periodontics','PERIODONTICS')"
+                                             style="background-image: url(images/periodontics.jpg);">
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+                         <div class="ourServices_item">
+                              <div class="hexagon hexagon2">
+
+                                   <div class="hexagon-in1">
+                                        <div class="hexagon-in2" id="implants" class="tablinks"
+                                             onmouseover="showInfo(event, 'dental_implants','DENTAL IMPLANTS')"
+                                             style="background-image: url(images/implants.jpg);">
+
+
+                                        </div>
+                                   </div>
+                              </div>
+
+                    </article>
+               </div>
+
                <!-- </div> -->
+               <div class="col-md-5 col-sm-5">
+                    <div class="more_info"></div>
+
+                    <div id="dental_implants" class="more_info">
+                         <h3>DENTAL IMPLANTS</h3>
+                         <p>Teeth implants usually consist of three parts:
+
+                              The implant screw: Gets permanently attached to your jaw, serving as the root for new
+                              teeth.
+
+                              The abutment: A connector that gets attached to the implant, holds the new tooth or a set
+                              of teeth.
+
+                              The crown: A prosthetic tooth that will be visible.
+
+                              Dental implants are replacement teeth made from medical-grade titanium alloy which is a
+                              metal that is highly biocompatible with your body. Our leading dentists will surgically
+                              insert and fuse the implant post into the jawbone, artificially replacing a real tooth
+                              root.
+
+                              Once the post integrates and bonds with the bone around it (osseointegration), the
+                              abutment gets installed, which will hold the crown. Then, our skilled periodontist will
+                              cap the post and abutment with a tooth-colored, natural-looking dental crown, dentures or
+                              bridges.
+
+                              Artificial teeth will help you smile more, speak more clearly, and chew better.</p>
+                    </div>
+
+                    <div id="periodontics" class="more_info">
+                         <h3>PERIODONTICS</h3>
+                         p>Teeth implants usually consist of three parts:
+
+                              The implant screw: Gets permanently attached to your jaw, serving as the root for new
+                              teeth.
+
+                              The abutment: A connector that gets attached to the implant, holds the new tooth or a set
+                              of teeth.
+
+                              The crown: A prosthetic tooth that will be visible.
+
+                              Dental implants are replacement teeth made from medical-grade titanium alloy which is a
+                              metal that is highly biocompatible with your body. Our leading dentists will surgically
+                              insert and fuse the implant post into the jawbone, artificially replacing a real tooth
+                              root.
+
+                              Once the post integrates and bonds with the bone around it (osseointegration), the
+                              abutment gets installed, which will hold the crown. Then, our skilled periodontist will
+                              cap the post and abutment with a tooth-colored, natural-looking dental crown, dentures or
+                              bridges.
+
+                              Artificial teeth will help you smile more, speak more clearly, and chew better.</p>
+                    </div>
+
+                    <div id="emergencies" class="more_info">
+                         <h3>EMERGENCIES</h3>
+                         p>Teeth implants usually consist of three parts:
+
+                              The implant screw: Gets permanently attached to your jaw, serving as the root for new
+                              teeth.
+
+                              The abutment: A connector that gets attached to the implant, holds the new tooth or a set
+                              of teeth.
+
+                              The crown: A prosthetic tooth that will be visible.
+
+                              Dental implants are replacement teeth made from medical-grade titanium alloy which is a
+                              metal that is highly biocompatible with your body. Our leading dentists will surgically
+                              insert and fuse the implant post into the jawbone, artificially replacing a real tooth
+                              root.
+
+                              Once the post integrates and bonds with the bone around it (osseointegration), the
+                              abutment gets installed, which will hold the crown. Then, our skilled periodontist will
+                              cap the post and abutment with a tooth-colored, natural-looking dental crown, dentures or
+                              bridges.
+
+                              Artificial teeth will help you smile more, speak more clearly, and chew better.</p>
+                    </div>
+                    <div id="orthodontics" class="more_info">
+                         <h3>ORTHODONTICS</h3>
+                         p>Teeth implants usually consist of three parts:
+
+                         The implant screw: Gets permanently attached to your jaw, serving as the root for new
+                         teeth.
+
+                         The abutment: A connector that gets attached to the implant, holds the new tooth or a set
+                         of teeth.
+
+                         The crown: A prosthetic tooth that will be visible.
+
+                         Dental implants are replacement teeth made from medical-grade titanium alloy which is a
+                         metal that is highly biocompatible with your body. Our leading dentists will surgically
+                         insert and fuse the implant post into the jawbone, artificially replacing a real tooth
+                         root.
+
+                         Once the post integrates and bonds with the bone around it (osseointegration), the
+                         abutment gets installed, which will hold the crown. Then, our skilled periodontist will
+                         cap the post and abutment with a tooth-colored, natural-looking dental crown, dentures or
+                         bridges.
+
+                         Artificial teeth will help you smile more, speak more clearly, and chew better.</p>                    </div>
+
+                    <div id="family_dentistry" class="more_info">
+                         <h3>FAMILY DENTISTRY</h3>
+                         p>Teeth implants usually consist of three parts:
+
+                         The implant screw: Gets permanently attached to your jaw, serving as the root for new
+                         teeth.
+
+                         The abutment: A connector that gets attached to the implant, holds the new tooth or a set
+                         of teeth.
+
+                         The crown: A prosthetic tooth that will be visible.
+
+                         Dental implants are replacement teeth made from medical-grade titanium alloy which is a
+                         metal that is highly biocompatible with your body. Our leading dentists will surgically
+                         insert and fuse the implant post into the jawbone, artificially replacing a real tooth
+                         root.
+
+                         Once the post integrates and bonds with the bone around it (osseointegration), the
+                         abutment gets installed, which will hold the crown. Then, our skilled periodontist will
+                         cap the post and abutment with a tooth-colored, natural-looking dental crown, dentures or
+                         bridges.
+
+                         Artificial teeth will help you smile more, speak more clearly, and chew better.</p>                    </div>
+
+                    <div id="cosmetic_dentistry" class="more_info">
+                         <h3>COSMETIC DENTISTRY</h3>
+                         p>Teeth implants usually consist of three parts:
+
+                         The implant screw: Gets permanently attached to your jaw, serving as the root for new
+                         teeth.
+
+                         The abutment: A connector that gets attached to the implant, holds the new tooth or a set
+                         of teeth.
+
+                         The crown: A prosthetic tooth that will be visible.
+
+                         Dental implants are replacement teeth made from medical-grade titanium alloy which is a
+                         metal that is highly biocompatible with your body. Our leading dentists will surgically
+                         insert and fuse the implant post into the jawbone, artificially replacing a real tooth
+                         root.
+
+                         Once the post integrates and bonds with the bone around it (osseointegration), the
+                         abutment gets installed, which will hold the crown. Then, our skilled periodontist will
+                         cap the post and abutment with a tooth-colored, natural-looking dental crown, dentures or
+                         bridges.
+
+                         Artificial teeth will help you smile more, speak more clearly, and chew better.</p>                    </div>
+                    <div class="clearfix"></div>
+
+
+               </div>
+          </div>
+          <!-- </div> -->
 
      </section>
 
@@ -611,17 +741,20 @@
 
 
      <!-- GOOGLE MAP -->
-     <section id="google-map">
+     <section id="google-map" data-stellar-background-ratio="3">
           <div class="container">
+               <h2>Dental Office Location</h2>
                <div class="row">
-                    <div class="col-md-6 col-sm-12">
+                    <div class="col-md-6 col-sm-12" class="map-img">
                          <iframe
                               src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6055.871851704374!2d-74.023372!3d40.631295!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2455859c3ffff%3A0x18be282263a13a61!2s310%2076th%20St%2C%20Brooklyn%2C%20NY%2011209%2C%20USA!5e0!3m2!1sen!2sil!4v1592175282042!5m2!1sen!2sil"
-                              width="550" height="320" frameborder="0" style="border:0;" allowfullscreen=""
+                              width="550" height="350" frameborder="0" style="border:0;" allowfullscreen=""
                               aria-hidden="false" tabindex="0"></iframe>
                     </div>
-                    <div class="col-md-6 col-sm-12">
-                         <img class="outside-office-photo" src="images/office_outside.jpg" alt="">
+                    <div class="col-md-6 col-sm-12" class="map-img" class="outside-office-photo">
+                         <iframe src="images/office_outside.jpg" width="550" height="350" frameborder="0"
+                              style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                         <!-- <img class="outside-office-photo" src="images/office_outside.jpg" alt=""> -->
                     </div>
                </div>
           </div>
@@ -629,26 +762,226 @@
 
      <!-- MODAL -->
      <div id="myModal" class="modal fade">
-         <div class="modal-dialog">
-             <div class="modal-content">
-                 <div class="modal-header">
-                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                      <h4 class="modal-title">Terms&Conditions</h4>  
-     
-                 </div>
-                 <div class="modal-body">
-                     <h3>Lorem Ipsum</h3>
-                     <p>Praesent non dictum dolor, vitae interdum erat. Nam quis consectetur mi. In consequat condimentum tortor, et lobortis est convallis ac. Quisque volutpat posuere dui, pellentesque vulputate dolor. Morbi dapibus orci eu est consectetur, sed pretium mauris laoreet. Pellentesque sodales ante non justo viverra, sit amet consectetur nisl vulputate.</p>
-                       <p>Praesent non dictum dolor, vitae interdum erat. Nam quis consectetur mi. In consequat condimentum tortor, et lobortis est convallis ac. Quisque volutpat posuere dui, pellentesque vulputate dolor. Morbi dapibus orci eu est consectetur, sed pretium mauris laoreet. Pellentesque sodales ante non justo viverra, sit amet consectetur nisl vulputate.</p>
-                 </div>
-                 <div class="modal-footer">
-                     
-                     <button id="loadpage" data-dismiss="modal" type="button" class="btn btn-primary">OK</button>
-                 </div>
-             </div>
-             <!-- /.modal-content -->
-         </div>
-         <!-- /.modal-dialog -->
+          <div class="modal-dialog">
+               <div class="modal-content">
+                    <div class="modal-header">
+                         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                         <h4 class="modal-title">Terms&Conditions</h4>
+
+                    </div>
+                    <div class="modal-body">
+                         <h4>Terms of Use</h4>
+                         <p>1. This World Wide Web site with its home page in the domain
+                              ‘https://www.brightsmiledesign.com‘, hereinafter referred to as the Website, is an
+                              information service provided by Bright Smile Design Dental at no charge to users of the
+                              World Wide Web, with the express condition that these users agree to be bound by the terms
+                              and conditions set forth in this Terms of Use Agreement. Bright Smile Design Dental
+                              reserves the right to change these terms and conditions at any time, and you agree to
+                              abide by the most recent version of this Terms of Use Agreement each time you view and use
+                              the Website. You are accordingly advised to consult the Terms of Use Agreement each time
+                              you view and use the Website. Do not use the Website if you do not agree to all of the
+                              following terms and conditions.</p>
+
+                         <p>2. You acknowledge that the information on the Website is provided ‘as is’ for general
+                              information only. It is not intended to provide medical advice, and should not be relied
+                              upon as a substitute for consultations with qualified health professionals who are
+                              familiar with your individual medical needs. Bright Smile Design Dental makes no
+                              warranties of any kind regarding this Website, including but not limited to any warranty
+                              of accuracy, completeness, currency, reliability, merchantability or fitness for a
+                              particular purpose, or any warranty that these pages, or the computer server which makes
+                              them available, are free of viruses or other harmful elements, and such warranties are
+                              expressly disclaimed.</p>
+
+                         <p>3. You agree that you will hold harmless Bright Smile Design Dental and its shareholders,
+                              officers, directors, and employees from all claims arising out of or related to your
+                              access or use of, or your inability to access or use, this Website or the information
+                              contained in this Website or other websites to which it is linked, including but not
+                              limited to claims that you have found something you have heard, viewed or downloaded from
+                              this Website or any other website to which it is linked to be obscene, offensive,
+                              defamatory, or infringing upon your intellectual property rights. In no event will Bright
+                              Smile Design Dental or any of the information contributors to the Website be liable to you
+                              or anyone else for any decision made or action taken by you in reliance on such
+                              information or for any consequential, special or similar damages, even if Bright Smile
+                              Design Dental has been advised of the possibility of such damages.</p>
+
+                         <p> You acknowledge that the opinions and recommendations contained in this Website are not
+                              necessarily those of Bright Smile Design Dental nor are they endorsed by Advice Media.</p>
+
+                         <p>5. Bright Smile Design Dental may provide links on the Website to other websites which are
+                              not under the control of Bright Smile Design Dental. In general, any website which has an
+                              address (or URL) not containing https://www.brightsmiledesign.com is such a website. These
+                              links are provided for convenience or reference only and are not intended as an
+                              endorsement by Bright Smile Design Dental of the organization or individual operating the
+                              website or a warranty of any type regarding the website or the information on the website.
+                         </p>
+
+                         <p>6. You may provide hypertext links to this Website on another website, provided that: (a)
+                              the link be a text-only link clearly marked ‘Advice Media Site’, (b) the link must ‘point’
+                              to the URL ‘https://www.brightsmiledesign.com‘ and not to other pages within the Website,
+                              (c) the appearance, position and other aspects of the link may not be such as to damage or
+                              dilute the goodwill associated with Bright Smile Design Dental‘s name and trademarks, (d)
+                              the appearance, position and other aspects of the link may not create the false appearance
+                              that an entity other than Bright Smile Design Dental is associated with or sponsored by
+                              Bright Smile Design Dental, (e) the link, when activated by a user, must display this
+                              Website full-screen and not within a ‘frame’ on the linked website, and (f) Bright Smile
+                              Design Dental reserves the right to revoke its consent to any link at any time at its sole
+                              discretion by amending this Terms of Use Agreement. You agree that any other hypertext
+                              links to this Website must be approved in writing by Bright Smile Design Dental.</p>
+
+                         <p>7. The works of authorship contained in this Website, including but not limited to all
+                              design, text and images, are owned or licensed by Bright Smile Design Dental and Advice
+                              Media, hereinafter referred to as Advice Media, or its suppliers and contributors, and may
+                              not be copied, reproduced, transmitted, displayed, performed, distributed, rented,
+                              sublicensed, altered, stored by subsequent use or otherwise used in whole or in part in
+                              any manner without Bright Smile Design Dental‘s prior written consent, except that the
+                              user may make such temporary copies in a single computer’s RAM and hard drive as is
+                              necessary to browse the Website, and that the user may produce one permanent printout of
+                              each page of the Website (unmodified in form, with a copy of this Terms of Use Agreement
+                              attached) to be used by the user for personal and non-commercial uses which do not harm
+                              the reputation of Bright Smile Design Dental or Advice Media</p>
+
+                         <p>8. This Website (excluding linked sites) is controlled by Advice Media which is
+                              headquartered in the State of New York, in the United States of America. It may be
+                              accessed from all 50 states, as well as from other countries around the world. Because
+                              each of these places has laws that may differ from those of New York, by accessing this
+                              Website you agree that the statutes and laws of the State of New York, without regard to
+                              conflicts of law principles thereof, will apply to all matters arising from or relating to
+                              the use of this Website. You also agree and hereby submit to the exclusive legal
+                              jurisdiction and venues of the Courts of Nassau County, New York and the United States
+                              District Court for the Southern District of New York with respect to such matters. Bright
+                              Smile Design Dental and Advice Media. make no representation that materials on the Website
+                              are appropriate or available for use in other locations, and accessing them from
+                              territories where their contents are illegal is hereby prohibited. Individuals or
+                              organizations choosing to access this Website from other locations do so of their own
+                              initiative and are responsible for compliance with local laws.</p>
+
+                         <p> Advice Media, its logo, nameplates are trademarks of Advice Media and are protected by
+                              international laws and treaty provisions.</p>
+
+                         <p>10. All text and electronic images on this Website are copyrighted materials which are
+                              either registered copyrights, unregistered common law copyrights, registered trademarks or
+                              salesmarks of Bright Smile Design Dental or Advice Media, its suppliers or contributors.
+                              Any attempt to infringe upon or to circumvent these copyrights or trademarks will subject
+                              the infringing individual or organization to severe criminal and civil penalties as
+                              prescribed by law.</p>
+                    </div>
+                    <div class="modal-footer">
+
+                         <button id="loadpage" data-dismiss="modal" type="button" class="btn btn-primary">OK</button>
+                    </div>
+               </div>
+               <!-- /.modal-content -->
+          </div>
+          <!-- /.modal-dialog -->
+     </div>
+     <!-- /.modal -->
+     <div id="privacyModal" class="modal fade">
+          <div class="modal-dialog">
+               <div class="modal-content">
+                    <div class="modal-header">
+                         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                         <h4 class="modal-title">Privacy Policy</h4>
+
+                    </div>
+                    <div class="modal-body">
+                         <p>Your privacy is critically important to us.
+                              BrightSmileDesign.com is located at:</p>
+
+                         <p>Bright Smile Design</p>
+
+                         <p> W 44th St Suite 716</p>
+
+                         <p> New York, NY 10036</p>
+
+                         <h4>Website Visitors</h4>
+
+                         <p>Like most website operators, AestheticsBest.com collects non-personally-identifying
+                              information of the sort that web browsers and servers typically make available, such as
+                              the browser type, language preference, referring site, and the date and time of each
+                              visitor request. BrightSmileDesign.com purpose in collecting non-personally identifying
+                              information is to better understand how BrightSmileDesign.com visitors use its website.
+                              From time to time, BrightSmileDesign.com may release non-personally-identifying
+                              information in the aggregate, e.g., by publishing a report on trends in the usage of its
+                              website.
+                              BrightSmileDesign.com also collects potentially personally-identifying information like
+                              Internet Protocol (IP) addresses for logged in users and for users leaving comments on
+                              https:// BrightSmileDesign.com blog posts. BrightSmileDesign.com only discloses logged in
+                              user and commenter IP addresses under the same circumstances that it uses and discloses
+                              personally-identifying information as described below.</p>
+                         <h4>Gathering of Personally-Identifying Information</h4>
+
+                         <p> Certain visitors to BrightSmileDesign.com’s websites choose to interact with
+                              BrightSmileDesign.com in ways that require BrightSmileDesign.com to gather
+                              personally-identifying information. The amount and type of information that
+                              BrightSmileDesign.com gathers depends on the nature of the interaction. For example, we
+                              ask visitors who sign up for an offer at https:// BrightSmileDesign.com to provide a name
+                              telephone email address.</p>
+
+                         <h4>Security</h4>
+
+                         <p>The security of your Personal Information is important to us, but remember that no method of
+                              transmission over the Internet, or method of electronic storage is 100% secure. While we
+                              strive to use commercially acceptable means to protect your Personal Information, we
+                              cannot guarantee its absolute security.</p>
+
+                         <h4>Advertisements</h4>
+
+                         <p>Ads appearing on our website may be delivered to users by advertising partners, who may set
+                              cookies. These cookies allow the ad server to recognize your computer each time they send
+                              you an online advertisement to compile information about you or others who use your
+                              computer. This information allows ad networks to, among other things, deliver targeted
+                              advertisements that they believe will be of most interest to you. This Privacy Policy
+                              covers the use of cookies by BrightSmileDesign.com and does not cover the use of cookies
+                              by any advertisers.</p>
+
+                         <h4>Links To External Sites</h4>
+
+                         <p>Our Service may contain links to external sites that are not operated by us. If you click on
+                              a third party link, you will be directed to that third party’s site. We strongly advise
+                              you to review the Privacy Policy and terms and conditions of every site you visit.
+                              We have no control over, and assume no responsibility for the content, privacy policies or
+                              practices of any third party sites, products or services.</p>
+
+                         <h4>Aggregated Statistics</h4>
+
+                         <p>BrightSmileDesign.com may collect statistics about the behavior of visitors to its website.
+                              BrightSmileDesign.com may display this information publicly or provide it to others.
+                              However, BrightSmileDesign.com does not disclose your personally-identifying information.
+                         </p>
+
+                         <h4>Cookies</h4>
+
+                         <p>To enrich and perfect your online experience, BrightSmileDesign.com uses “Cookies”, similar
+                              technologies and services provided by others to display personalized content, appropriate
+                              advertising and store your preferences on your computer.
+                              A cookie is a string of information that a website stores on a visitor’s computer, and
+                              that the visitor’s browser provides to the website each time the visitor returns.
+                              BrightSmileDesign.com uses cookies to help BrightSmileDesign.com identify and track
+                              visitors, their usage of BrightSmileDesign.com, and their website access preferences.
+                              BrightSmileDesign.com visitors who do not wish to have cookies placed on their computers
+                              should set their browsers to refuse cookies before using BrightSmileDesign.com’s websites,
+                              with the drawback that certain features of BrightSmileDesign.com’s websites may not
+                              function properly without the aid of cookies.
+                              By continuing to navigate our website without changing your cookie settings, you hereby
+                              acknowledge and agree to BrightSmileDesign.com’s use of cookies.</p>
+
+                         <h4>Privacy Policy Changes</h4>
+
+                         <p>Although most changes are likely to be minor, BrightSmileDesign.com may change its Privacy
+                              Policy from time to time, and in BrightSmileDesign.com’s sole discretion.
+                              BrightSmileDesign.com encourages visitors to frequently check this page for any changes to
+                              its Privacy Policy. Your continued use of this site after any change in this Privacy
+                              Policy will constitute your acceptance of such change.</p>
+
+                    </div>
+                    <div class="modal-footer">
+
+                         <button id="loadpage" data-dismiss="modal" type="button" class="btn btn-primary">OK</button>
+                    </div>
+               </div>
+               <!-- /.modal-content -->
+          </div>
+          <!-- /.modal-dialog -->
      </div>
      <!-- /.modal -->
 
@@ -657,47 +990,22 @@
           <div class="container">
                <div class="row">
 
-                    <div class="col-md-3 col-sm-4">
-                         <div class="footer-thumb">
-                              <h4 class="wow fadeInUp" data-wow-delay="0.4s">Contact Info</h4>
-                              <p>Fusce at libero iaculis, venenatis augue quis, pharetra lorem. Curabitur ut dolor eu
-                                   elit consequat ultricies.</p>
+                    <div class="col-md-8 col-sm-8">
+                         <div class="contact-info">
+                              <h4 class="wow fadeInUp" data-wow-delay="0.4s"><i class=" fa fa-map-marker"></i>Dental
+                                   Office Location</h4>
+                              <p class="address">7601 3rd Ave,</p>
+                              <p class="address">Brooklyn, NY 11209</p>
 
                               <div class="contact-info">
-                                   <p><i class="fa fa-phone"></i> 010-070-0170</p>
-                                   <p><i class="fa fa-envelope-o"></i> <a href="#">info@company.com</a></p>
+                                   <p><i class="fa fa-phone"></i> 718-833-3417</p>
+                                   <p><i class="fa fa-envelope-o"></i> <a
+                                             href="mailto:absolutedentalny@gmail.com">absolutedentalny@gmail.com</a></p>
                               </div>
                          </div>
                     </div>
 
-                    <div class="col-md-4 col-sm-4">
-                         <div class="footer-thumb">
-                              <h4 class="wow fadeInUp" data-wow-delay="0.4s">Latest News</h4>
-                              <div class="latest-stories">
-                                   <div class="stories-image">
-                                        <a href="#"><img src="images/news-image.jpg" class="img-responsive" alt=""></a>
-                                   </div>
-                                   <div class="stories-info">
-                                        <a href="#">
-                                             <h5>Amazing Technology</h5>
-                                        </a>
-                                        <span>March 08, 2018</span>
-                                   </div>
-                              </div>
 
-                              <div class="latest-stories">
-                                   <div class="stories-image">
-                                        <a href="#"><img src="images/news-image.jpg" class="img-responsive" alt=""></a>
-                                   </div>
-                                   <div class="stories-info">
-                                        <a href="#">
-                                             <h5>New Healing Process</h5>
-                                        </a>
-                                        <span>February 20, 2018</span>
-                                   </div>
-                              </div>
-                         </div>
-                    </div>
 
                     <div class="col-md-4 col-sm-4">
                          <div class="footer-thumb">
@@ -708,26 +1016,22 @@
                                    <p>Sunday <span>Closed</span></p>
                               </div>
 
-                              <!-- <ul class="social-icon">
-                                   <li><a href="#" class="fa fa-facebook-square" attr="facebook icon"></a></li>
-                                   <li><a href="#" class="fa fa-twitter"></a></li>
-                                   <li><a href="#" class="fa fa-instagram"></a></li>
-                              </ul> -->
                          </div>
                     </div>
 
                     <div class="col-md-12 col-sm-12 border-top">
-                         <div class="col-md-4 col-sm-6">
+                         <div class="col-md-6 col-sm-8">
                               <div class="copyright-text">
-                                   <p>Copyright &copy; Michael Babushkin Software Solutions 2020</p>
+                                   <p>Copyright &copy; Michael Babushkin Software Solutions 2020 All Rights Reserved
+                                   </p>
+                                   <p>Hosted on WebMarie.com</p>
                               </div>
                          </div>
-                         <div class="col-md-6 col-sm-6">
+                         <div class="col-md-2 col-sm-2"></div>
+                         <div class="col-md-4 col-sm-4">
                               <div class="footer-link">
-                                   <a href="#">Hosted on WebMarie</a>
-                                   <a href="#">Departments</a>
-                                   <a href="#">Insurance Policy</a>
-                                   <a href="#myModal"  data-toggle="modal">Terms&Conditions</a>
+                                   <a href="#privacyModal" data-toggle="modal">Privacy Policy</a>
+                                   <a href="#myModal" data-toggle="modal">Terms Of Use</a>
                               </div>
                          </div>
                          <div class="col-md-2 col-sm-2 text-align-center">
@@ -743,24 +1047,26 @@
      </footer>
 
      <!-- SCRIPTS -->
-      <script src="js/jquery.js"></script>
+     <script src="js/jquery.js"></script>
      <!-- <script src="bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>  -->
-    
 
-  <!-- JS, Popper.js, and jQuery -->
-  <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script> -->
-  <!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script> -->
-  <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script> -->
-  <script src="js/jquery.stellar.min.js"></script>
-  <script src="js/wow.min.js"></script>
-  <script src="js/smoothscroll.js"></script>
-  <script src="js/owl.carousel.min.js"></script>
-  <script src="js/custom.js"></script>
-  <script src="js/form_validation.js"></script>
-  <script src="js/hexagon.js"></script>
-  <script src="js/terms_modal.js"></script>
-  <script src="js/jquery.sticky.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+
+     <!-- JS, Popper.js, and jQuery -->
+     <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script> -->
+     <!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script> -->
+     <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script> -->
+     <script src="js/jquery.stellar.min.js"></script>
+     <script src="js/wow.min.js"></script>
+     <script src="js/smoothscroll.js"></script>
+     <script src="js/owl.carousel.min.js"></script>
+     <script src="js/custom.js"></script>
+     <script src="js/form_validation.js"></script>
+     <script src="js/hexagon.js"></script>
+     <script src="js/terms_modal.js"></script>
+     <script src="js/jquery.sticky.js"></script>
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
+          integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous">
+     </script>
 </body>
 
 </html>

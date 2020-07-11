@@ -209,18 +209,22 @@ http://www.tooplate.com/view/2098-health
 
   #google-map {
     /* line-height: 0; */
-    margin-top: 100px;
+    margin-top: 15%;
     /* margin-left: 30px; */
    
 
   }
   .outside-office-photo{
-    /* margin-right: 20px; */
-    /* margin: auto; */
+  
     border-radius: 3%;
     border: #1da1f2;
     display: block;
     max-width: 100%;
+  }
+  .map-img{
+    display: block;
+    max-width: 100%;
+    height: auto;
   }
 
 
@@ -392,7 +396,7 @@ http://www.tooplate.com/view/2098-health
   .navbar-default .navbar-nav > .active > a:hover,
   .navbar-default .navbar-nav > .active > a:focus {
     color: #393939;
-    background-color: transparent;
+    background-color: beige !important;
   }
 
   .navbar-default .navbar-toggle {
@@ -494,8 +498,25 @@ http://www.tooplate.com/view/2098-health
   .slider .item-third {
     background-image: url(../images/office3.png);
   }
+  .dental_title{
+    color: black!important;
+    font-size:1.2em!important;
+  }
   
-
+  .card { 
+    width: 20rem; 
+    margin: 2rem; 
+} 
+.image-grid-container { 
+    display: grid; 
+      
+    /* For 3 columns */ 
+    grid-template-columns: auto auto auto auto; 
+}
+.insurance{
+  padding-top: 15%;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
 
   /*---------------------------------------
      Our services           
@@ -574,7 +595,12 @@ http://www.tooplate.com/view/2098-health
     min-width: 400px;
   }
   .dropdown-menu.columns-3 {
-    min-width: 950px;
+    min-width: 500%;
+    margin-right: -337%;
+    margin-top: 13% !important;
+    border-radius: 15px;
+    background-color: ivory;
+    padding-left:  7px!important;
   }
   .dropdown-menu li a {
     padding: 5px 15px;
@@ -871,7 +897,8 @@ http://www.tooplate.com/view/2098-health
   -----------------------------------------*/
 
   #appointment {
-    padding-top: 100px;
+    /* padding-top: 100px; */
+    padding-top: 15%;
   }
 
   #appointment label {
@@ -923,12 +950,13 @@ textarea {
   -----------------------------------------*/
 
   footer {
-    padding-top: 80px;
+    padding-top: 10%;
     padding-bottom: 40px;
   }
 
   footer h4 {
     padding-bottom: 5px;
+    padding-left: 0px;
   }
 
   footer a {
@@ -1034,6 +1062,9 @@ textarea {
     background: #4267b2;
     color: #ffffff;
     transform: translateY(-5px);
+  }
+  .address{
+    padding-left: 6%;
   }
 
 

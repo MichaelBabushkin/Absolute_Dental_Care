@@ -33,10 +33,10 @@ h1 {
 	float: left;
 	padding: 0px 12px;
 	border: 1px solid #ccc;
-	width: 100%;
+	width: 80%;
 	border-left: 2px solid;
 	border-right: 2px solid;
-	margin-left:-20px;
+	margin-left:50px;
 	display: none;
 }
 .more_info h3{
