@@ -141,13 +141,16 @@ h1 {
   transition: all 0.5s ease;
 }
 #c_dentistry{
-background-position-y: 20%;
-}
-#whiten{
 	-webkit-background-size: 100%;
 	-moz-background-size: 100%;
 	background-position-y: -33px;
 }
+#whiten{
+	-webkit-background-size: 100%;
+	-moz-background-size: 100%;
+	background-position-x: -226px;
+    background-position-y: 101px;
+    background-size: 337%;}
 #f_dentistry{
 	background-position: -92px 102px;
 	-webkit-background-size: 108%;
@@ -156,10 +159,11 @@ background-position-y: 20%;
 }
 #emergency{
 background-position-x: 95%;
+-webkit-background-size: 100%;
+-moz-background-size: 100%;
 }
-#periodon{
-	-webkit-background-size: 100%;
-	-moz-background-size: 100%;
+#restore{
+	background-position-y: -4px;
 }
 #implants{
 	-webkit-background-size: 100%;

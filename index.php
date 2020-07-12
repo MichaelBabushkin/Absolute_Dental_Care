@@ -250,7 +250,7 @@
                                    <div class="hexagon-in1">
                                         <div class="hexagon-in2" id="c_dentistry" class="tablinks"
                                              onmouseover="showInfo(event, 'cosmetic_dentistry','COSMETIC DENTISTRY')"
-                                             style="background-image: url(images/human-teeth.jpg);">
+                                             style="background-image: url(images/cosmetic.jpg);">
                                         </div>
                                    </div>
                               </div>
@@ -295,7 +295,7 @@
                                    <div class="hexagon-in1">
                                         <div class="hexagon-in2" id="emergency" class="tablinks"
                                              onmouseover="showInfo(event, 'emergencies','EMERGENCIES')"
-                                             style="background-image: url(images/emergency.png);">
+                                             style="background-image: url(images/emergency.jpg);">
                                         </div>
                                    </div>
                               </div>
@@ -311,9 +311,9 @@
                          <div class="ourServices_item">
                               <div class="hexagon hexagon2">
                                    <div class="hexagon-in1">
-                                        <div class="hexagon-in2" id="periodon" class="tablinks"
-                                             onmouseover="showInfo(event, 'periodontics','PERIODONTICS')"
-                                             style="background-image: url(images/periodontics.jpg);">
+                                        <div class="hexagon-in2" id="restore" class="tablinks"
+                                             onmouseover="showInfo(event, 'restorative_dentistry','RESTORATIVE DENTISTRY')"
+                                             style="background-image: url(images/braces.jpg);">
                                         </div>
                                    </div>
                               </div>
@@ -363,8 +363,8 @@
                               Artificial teeth will help you smile more, speak more clearly, and chew better.</p>
                     </div>
 
-                    <div id="periodontics" class="more_info">
-                         <h3>PERIODONTICS</h3>
+                    <div id="restorative_dentistry" class="more_info">
+                         <h3>Restorative Dentistry</h3>
                          <p>Teeth implants usually consist of three parts:
 
                               The implant screw: Gets permanently attached to your jaw, serving as the root for new
