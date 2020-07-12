@@ -143,11 +143,16 @@ h1 {
 #c_dentistry{
 background-position-y: 20%;
 }
-#ortho{
-
+#whiten{
+	-webkit-background-size: 100%;
+	-moz-background-size: 100%;
+	background-position-y: -33px;
 }
 #f_dentistry{
-	background-position: 50% -52%;
+	background-position: -92px 102px;
+	-webkit-background-size: 108%;
+	-moz-background-size: 100%;
+	background-size: 183%;
 }
 #emergency{
 background-position-x: 95%;

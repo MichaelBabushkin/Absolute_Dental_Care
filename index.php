@@ -258,9 +258,9 @@
                          <div class="ourServices_item">
                               <div class="hexagon hexagon2">
                                    <div class="hexagon-in1">
-                                        <div class="hexagon-in2" id="ortho" class="tablinks"
-                                             onmouseover="showInfo(event, 'orthodontics','ORTHODONTICS')"
-                                             style="background-image: url(images/orthodontics.png);">
+                                        <div class="hexagon-in2" id="whiten" class="tablinks"
+                                             onmouseover="showInfo(event, 'whitening','WHITENING')"
+                                             style="background-image: url(images/whitening.jpg);">
                                         </div>
                                    </div>
                               </div>
@@ -295,7 +295,7 @@
                                    <div class="hexagon-in1">
                                         <div class="hexagon-in2" id="emergency" class="tablinks"
                                              onmouseover="showInfo(event, 'emergencies','EMERGENCIES')"
-                                             style="background-image: url(images/emergency.jpg);">
+                                             style="background-image: url(images/emergency.png);">
                                         </div>
                                    </div>
                               </div>
@@ -365,7 +365,7 @@
 
                     <div id="periodontics" class="more_info">
                          <h3>PERIODONTICS</h3>
-                         p>Teeth implants usually consist of three parts:
+                         <p>Teeth implants usually consist of three parts:
 
                               The implant screw: Gets permanently attached to your jaw, serving as the root for new
                               teeth.
@@ -412,33 +412,18 @@
 
                               Artificial teeth will help you smile more, speak more clearly, and chew better.</p>
                     </div>
-                    <div id="orthodontics" class="more_info">
-                         <h3>ORTHODONTICS</h3>
-                         p>Teeth implants usually consist of three parts:
-
-                         The implant screw: Gets permanently attached to your jaw, serving as the root for new
-                         teeth.
-
-                         The abutment: A connector that gets attached to the implant, holds the new tooth or a set
-                         of teeth.
-
-                         The crown: A prosthetic tooth that will be visible.
-
-                         Dental implants are replacement teeth made from medical-grade titanium alloy which is a
-                         metal that is highly biocompatible with your body. Our leading dentists will surgically
-                         insert and fuse the implant post into the jawbone, artificially replacing a real tooth
-                         root.
-
-                         Once the post integrates and bonds with the bone around it (osseointegration), the
-                         abutment gets installed, which will hold the crown. Then, our skilled periodontist will
-                         cap the post and abutment with a tooth-colored, natural-looking dental crown, dentures or
-                         bridges.
-
-                         Artificial teeth will help you smile more, speak more clearly, and chew better.</p>                    </div>
+                    <div id="whitening" class="more_info">
+                         <h3>TEETH WHITENING</h3>
+                         <p>Teeth whitening procedures are used to brighten the appearance of a patient’s smile – sometimes
+                               by as many as 5 to 10 shades in a single session. According to the American Dental Association,
+                              teeth whitening procedures have become some of the most popular aesthetic dental treatments among patients throughout the country.
+                               Professional teeth whitening services can be performed in an office setting or prescribed for take-home use by a patient.
+                               In comparison to over-the-counter teeth whitening treatments, professional whitening uses stronger whitening agents 
+                               that deliver faster and more effective results.</p></div>
 
                     <div id="family_dentistry" class="more_info">
                          <h3>FAMILY DENTISTRY</h3>
-                         p>Teeth implants usually consist of three parts:
+                         <p>Teeth implants usually consist of three parts:
 
                          The implant screw: Gets permanently attached to your jaw, serving as the root for new
                          teeth.
@@ -462,7 +447,7 @@
 
                     <div id="cosmetic_dentistry" class="more_info">
                          <h3>COSMETIC DENTISTRY</h3>
-                         p>Teeth implants usually consist of three parts:
+                         <p>Teeth implants usually consist of three parts:
 
                          The implant screw: Gets permanently attached to your jaw, serving as the root for new
                          teeth.
