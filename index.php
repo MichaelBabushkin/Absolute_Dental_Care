@@ -68,23 +68,23 @@
      <section class="navbar navbar-default navbar-static-top" role="navigation">
           <div class="container">
                <div class="row">
-                    <div class="col-md-1 col-sm-12">
+                    <div class="col-md-1 col-sm-1">
                          <img class="nav-logo" src="nav_logo.png" alt="">
                     </div>
                     <!-- <img src="nav_logo.png" alt=""> -->
                     <div class="navbar-header col-md-3 col-sm-12 text-align-left">
-
-                         <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                              <span class="icon icon-bar"></span>
-                              <span class="icon icon-bar"></span>
-                              <span class="icon icon-bar"></span>
-                         </button>
+                         <!-- <img class="nav-logo" src="nav_logo.png" alt=""> -->
+                              <!-- <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                   <span class="icon icon-bar">1</span>
+                                   <span class="icon icon-bar">2</span>
+                                   <span class="icon icon-bar">3</span>
+                              </button> -->
 
                          <a href="index.php" class="navbar-brand">Absolute Dental Care PC</a>
                     </div>
 
                     <!-- MENU LINKS -->
-                    <div class="collapse navbar-collapse col-md-8 col-sm-12 text-align-right">
+                    <div class="collapse navbar-collapse col-md-8 col-sm-6 text-align-right">
                          <ul class="nav navbar-nav navbar-right">
                               <li><a href="#top" class="smoothScroll">Home</a></li>
                               <!-- <li><a href="#services" class="smoothScroll">Our services</a></li> -->
@@ -184,6 +184,20 @@
                          </div>
 
                          <div class="item item-third">
+                              <div class="caption">
+                                   <div class="col-md-offset-1 col-md-12">
+
+                                   </div>
+                              </div>
+                         </div>
+                         <div class="item item-fourth">
+                              <div class="caption">
+                                   <div class="col-md-offset-1 col-md-12">
+
+                                   </div>
+                              </div>
+                         </div>
+                         <div class="item item-fifth">
                               <div class="caption">
                                    <div class="col-md-offset-1 col-md-12">
 
@@ -667,7 +681,7 @@
 
 
      <!-- MAKE AN APPOINTMENT -->
-     <section id="appointment" data-stellar-background-ratio="3">
+     <section id="appointment" data-stellar-background-ratio="1">
           <div class="container">
                <div class="row">
 
@@ -726,7 +740,7 @@
 
 
      <!-- GOOGLE MAP -->
-     <section id="google-map" data-stellar-background-ratio="3">
+     <section id="google-map" data-stellar-background-ratio="2">
           <div class="container">
                <h2>Dental Office Location</h2>
                <div class="row">

@@ -210,6 +210,7 @@ http://www.tooplate.com/view/2098-health
   #google-map {
     /* line-height: 0; */
     margin-top: 15%;
+    background-image: url(../images/blue.jpg);
     /* margin-left: 30px; */
    
 
@@ -423,7 +424,9 @@ http://www.tooplate.com/view/2098-health
   /*---------------------------------------
       HOME              
   -----------------------------------------*/
-
+  #home{
+    background-image: url(../images/blue.jpg);
+  }
   #home h1 {
     color: #ffffff;
     padding-bottom: 10px;
@@ -497,6 +500,12 @@ http://www.tooplate.com/view/2098-health
 
   .slider .item-third {
     background-image: url(../images/office3.png);
+  }
+  .slider .item-fourth {
+    background-image: url(../images/waiting.jpeg);
+  }
+  .slider .item-fifth {
+    background-image: url(../images/reception.jpeg);
   }
   .dental_title{
     color: black!important;
@@ -710,6 +719,9 @@ http://www.tooplate.com/view/2098-health
   h3.yevgeniya-headline{
     padding-bottom: 15px;
   }
+  #team{
+    background-image: url(../images/blue.jpg);
+  }
 
   /*---------------------------------------
      SERVICE              
@@ -749,8 +761,8 @@ http://www.tooplate.com/view/2098-health
   -----------------------------------------*/
 
   #news, #news-detail {
-    /* background: #f9f9f9; */
     background-image: url(../images/tooth.jpg);
+    margin-top: 5%;
   }
 
   #news-detail blockquote {
@@ -899,6 +911,7 @@ http://www.tooplate.com/view/2098-health
   #appointment {
     /* padding-top: 100px; */
     padding-top: 15%;
+    background-image: url(../images/blue.jpg);
   }
 
   #appointment label {
@@ -950,8 +963,9 @@ textarea {
   -----------------------------------------*/
 
   footer {
-    padding-top: 10%;
+    margin-top: 10%;
     padding-bottom: 40px;
+    background-color: antiquewhite;
   }
 
   footer h4 {
