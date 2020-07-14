@@ -371,22 +371,31 @@ http://www.tooplate.com/view/2098-health
     font-size: 16px;
     font-weight: 500;
     margin-right: 20px;
-    /* padding-left: 25px; */
     -webkit-transition: all ease-in-out 0.4s;
     transition: all ease-in-out 0.4s;
     border-radius: 25px;
   }
 
+  
   .navbar-default .navbar-nav > li a:hover {
-    /* color: #393939 !important; */
-    /* font-size: 20px; */
     color: black;
-    /* background: linear-gradient(to bottom, #e8edec, #d2d1d3); */
 		box-shadow: 0px 3px 15px 0px black;
     transform: scale(1.2);
     border-radius: 25px;
   }
 
+  .service_column{
+    padding-left: 10%;
+    padding-top: 5%;
+    color: #555555;
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 20px;
+    -webkit-transition: all ease-in-out 0.4s;
+    transition: all ease-in-out 0.4s;
+    border-radius: 25px;
+
+  }
   .navbar-default .navbar-nav > li > a:hover,
   .navbar-default .navbar-nav > li > a:focus {
     color: #555555;
@@ -963,8 +972,8 @@ textarea {
   -----------------------------------------*/
 
   footer {
-    margin-top: 10%;
-    padding-bottom: 40px;
+    /* margin-top: 10%;
+    padding-bottom: 40px; */
     background-color: antiquewhite;
   }
 
@@ -983,6 +992,7 @@ textarea {
 
   .contact-info {
     padding-top: 10px;
+    margin-bottom: -10% !important;
   }
 
   .contact-info .fa {

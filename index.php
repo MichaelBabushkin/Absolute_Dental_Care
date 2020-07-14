@@ -98,12 +98,11 @@
                                                        <li>
                                                             <h4>COSMETIC DENTISTRY</h4>
                                                        </li>
-                                                       <li><a href="#">Another action</a></li>
-                                                       <li><a href="#">Something else here</a></li>
+                                                       <li class="service_column">Dental Bridge</li>
+                                                       <li class="service_column">Teeth Cleaning</li>
+                                                       <li class="service_column">Zoom Whitening</li>
                                                        <li class="divider"></li>
-                                                       <li><a href="#">Separated link</a></li>
-                                                       <li class="divider"></li>
-                                                       <li><a href="#">One more separated link</a></li>
+                                                       <li><a href="#">Read more about Cosmetic Dentistry</a></li>
                                                   </ul>
                                              </div>
                                              <div class="col-sm-3">
@@ -111,12 +110,11 @@
                                                        <li>
                                                             <h4>PEDIATRIC DENTISTRY</h4>
                                                        </li>
-                                                       <li><a href="#">Another action</a></li>
-                                                       <li><a href="#">Something else here</a></li>
+                                                       <li class="service_column">White Fillings (BPA Free)</li>
+                                                       <li class="service_column">Emergency Pediatric Dental Care</li>
+                                                       <li class="service_column">Cavities, Caries Treatment</li>
                                                        <li class="divider"></li>
-                                                       <li><a href="#">Separated link</a></li>
-                                                       <li class="divider"></li>
-                                                       <li><a href="#">One more separated link</a></li>
+                                                       <li><a href="#">Read more about Pediatric Dentistry</a></li>
                                                   </ul>
                                              </div>
                                              <div class="col-sm-3">
@@ -124,12 +122,11 @@
                                                        <li>
                                                             <h4>PERIODONTICS</h4>
                                                        </li>
-                                                       <li><a href="#">Another action</a></li>
-                                                       <li><a href="#">Something else here</a></li>
+                                                       <li class="service_column">Tooth Extraction</li>
+                                                       <li class="service_column">Dental Oral Surgery</li>
+                                                       <li class="service_column">Gum Disease </li>
                                                        <li class="divider"></li>
-                                                       <li><a href="#">Separated link</a></li>
-                                                       <li class="divider"></li>
-                                                       <li><a href="#">One more separated link</a></li>
+                                                       <li><a href="#">Read more about Periodontics</a></li>
                                                   </ul>
                                              </div>
                                              <div class="col-sm-3">
@@ -137,12 +134,11 @@
                                                        <li>
                                                             <h4>DENTAL IMPLANTS</h4>
                                                        </li>
-                                                       <li><a href="#">Another action</a></li>
-                                                       <li><a href="#">Something else here</a></li>
+                                                       <li class="service_column">Single Tooth Implant</li>
+                                                       <li class="service_column">Denture Implants</li>
+                                                       <li class="service_column">Same Day Dental Implants </li>
                                                        <li class="divider"></li>
-                                                       <li><a href="#">Separated link</a></li>
-                                                       <!-- <li class="divider"></li> -->
-                                                       <li><a href="dental_implants.html">Read more </a></li>
+                                                       <li><a href="#">Read more about Dental Implants</a></li>
                                                   </ul>
                                              </div>
                                         </div>
@@ -1033,12 +1029,12 @@
                                    <a href="#myModal" data-toggle="modal">Terms Of Use</a>
                               </div>
                          </div>
-                         <div class="col-md-2 col-sm-2 text-align-center">
+                         <!-- <div class="col-md-2 col-sm-2 text-align-center">
                               <div class="angle-up-btn">
                                    <a href="#top" class="smoothScroll wow fadeInUp" data-wow-delay="1.2s"><i
                                              class="fa fa-angle-up"></i></a>
                               </div>
-                         </div>
+                         </div> -->
                     </div>
 
                </div>
