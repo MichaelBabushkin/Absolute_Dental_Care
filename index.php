@@ -102,7 +102,7 @@
                                                        <li class="service_column">Teeth Cleaning</li>
                                                        <li class="service_column">Zoom Whitening</li>
                                                        <li class="divider"></li>
-                                                       <li><a href="#">Read more about Cosmetic Dentistry</a></li>
+                                                       <li><a href="cosmetic_dentistry.html">Read more about Cosmetic Dentistry</a></li>
                                                   </ul>
                                              </div>
                                              <div class="col-sm-3">
@@ -114,7 +114,7 @@
                                                        <li class="service_column">Emergency Pediatric Dental Care</li>
                                                        <li class="service_column">Cavities, Caries Treatment</li>
                                                        <li class="divider"></li>
-                                                       <li><a href="#">Read more about Pediatric Dentistry</a></li>
+                                                       <li><a href="pediatric_dentistry.html">Read more about Pediatric Dentistry</a></li>
                                                   </ul>
                                              </div>
                                              <div class="col-sm-3">
@@ -126,7 +126,7 @@
                                                        <li class="service_column">Dental Oral Surgery</li>
                                                        <li class="service_column">Gum Disease </li>
                                                        <li class="divider"></li>
-                                                       <li><a href="#">Read more about Periodontics</a></li>
+                                                       <li><a href="periodontics.html">Read more about Periodontics</a></li>
                                                   </ul>
                                              </div>
                                              <div class="col-sm-3">
@@ -138,7 +138,7 @@
                                                        <li class="service_column">Denture Implants</li>
                                                        <li class="service_column">Same Day Dental Implants </li>
                                                        <li class="divider"></li>
-                                                       <li><a href="#">Read more about Dental Implants</a></li>
+                                                       <li><a href="dental_implants.html">Read more about Dental Implants</a></li>
                                                   </ul>
                                              </div>
                                         </div>
@@ -239,7 +239,6 @@
           <h2 class="wow fadeInUp" data-wow-delay="0.6s">Our Services</h2>
           <div class="wow fadeInUp" data-wow-delay="0.8s"> </div>
           <div class="row">
-
 
                <!-- <div class="about-info"> -->
 
@@ -400,7 +399,7 @@
 
                     <div id="emergencies" class="more_info">
                          <h3>EMERGENCIES</h3>
-                         p>Teeth implants usually consist of three parts:
+                         <p>Teeth implants usually consist of three parts:
 
                               The implant screw: Gets permanently attached to your jaw, serving as the root for new
                               teeth.
