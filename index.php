@@ -148,7 +148,7 @@
                                         </div>
                                    </ul>
                               </li>
-                              <li><a href="#team" class="smoothScroll">Dr. Gelman</a></li>
+                              <li><a href="#team" class="smoothScroll">Dr. Gelman</a></li>                        
                               <li><a href="#news" class="smoothScroll">Reviews</a></li>
                               <li><a href="#appointment" class="smoothScroll">Contact</a></li>
                               <li><a href="#google-map" class="smoothScroll">Directions</a></li>
