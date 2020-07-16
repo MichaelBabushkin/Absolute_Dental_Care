@@ -74,7 +74,7 @@
                     <!-- <img src="nav_logo.png" alt=""> -->
                     <div class="navbar-header col-md-3 col-sm-12 text-align-left">
                          <!-- <img class="nav-logo" src="nav_logo.png" alt=""> -->
-                              <!-- <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                         <!-- <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                                    <span class="icon icon-bar">1</span>
                                    <span class="icon icon-bar">2</span>
                                    <span class="icon icon-bar">3</span>
@@ -102,7 +102,8 @@
                                                        <li class="service_column">Teeth Cleaning</li>
                                                        <li class="service_column">Zoom Whitening</li>
                                                        <li class="divider"></li>
-                                                       <li><a href="cosmetic_dentistry.html">Read more about Cosmetic Dentistry</a></li>
+                                                       <li><a href="cosmetic_dentistry.html">Read more about Cosmetic
+                                                                 Dentistry</a></li>
                                                   </ul>
                                              </div>
                                              <div class="col-sm-3">
@@ -114,7 +115,8 @@
                                                        <li class="service_column">Emergency Pediatric Dental Care</li>
                                                        <li class="service_column">Cavities, Caries Treatment</li>
                                                        <li class="divider"></li>
-                                                       <li><a href="pediatric_dentistry.html">Read more about Pediatric Dentistry</a></li>
+                                                       <li><a href="pediatric_dentistry.html">Read more about Pediatric
+                                                                 Dentistry</a></li>
                                                   </ul>
                                              </div>
                                              <div class="col-sm-3">
@@ -126,7 +128,8 @@
                                                        <li class="service_column">Dental Oral Surgery</li>
                                                        <li class="service_column">Gum Disease </li>
                                                        <li class="divider"></li>
-                                                       <li><a href="periodontics.html">Read more about Periodontics</a></li>
+                                                       <li><a href="periodontics.html">Read more about Periodontics</a>
+                                                       </li>
                                                   </ul>
                                              </div>
                                              <div class="col-sm-3">
@@ -138,7 +141,8 @@
                                                        <li class="service_column">Denture Implants</li>
                                                        <li class="service_column">Same Day Dental Implants </li>
                                                        <li class="divider"></li>
-                                                       <li><a href="dental_implants.html">Read more about Dental Implants</a></li>
+                                                       <li><a href="dental_implants.html">Read more about Dental
+                                                                 Implants</a></li>
                                                   </ul>
                                              </div>
                                         </div>
@@ -212,7 +216,7 @@
                                    balance. Our Prevention, Diagnosis or Treatment Planning is guaranteed to be without
                                    regard to the limitations imposed by your insurance coverage.</p>
                               <p>PLEASE NOTE: We also accept many other insurances (All major insurances).
-                                   Please contact the office for more information.</p>                                   
+                                   Please contact the office for more information.</p>
                          </div>
                          <div class="col-md-8 col-sm-8">
                               <div class="card">
@@ -230,6 +234,19 @@
                               </div>
                          </div>
                     </div>
+                  
+               </div>
+          </div>
+          <div id="third-curve">
+             
+               <!-- <div class="container"> -->
+               <div class=" center mh" >
+                    <div class="page-top-icon" >
+                         
+                    </div>
+               </div>
+               <!-- </div> -->
+          </div>
      </section>
 
 
@@ -342,8 +359,7 @@
 
                     </article>
                </div>
-
-               <!-- </div> -->
+               
                <div class="col-md-5 col-sm-5">
                     <div class="more_info"></div>
 
@@ -423,67 +439,83 @@
                     </div>
                     <div id="whitening" class="more_info">
                          <h3>TEETH WHITENING</h3>
-                         <p>Teeth whitening procedures are used to brighten the appearance of a patient’s smile – sometimes
-                               by as many as 5 to 10 shades in a single session. According to the American Dental Association,
-                              teeth whitening procedures have become some of the most popular aesthetic dental treatments among patients throughout the country.
-                               Professional teeth whitening services can be performed in an office setting or prescribed for take-home use by a patient.
-                               In comparison to over-the-counter teeth whitening treatments, professional whitening uses stronger whitening agents 
-                               that deliver faster and more effective results.</p></div>
+                         <p>Teeth whitening procedures are used to brighten the appearance of a patient’s smile –
+                              sometimes
+                              by as many as 5 to 10 shades in a single session. According to the American Dental
+                              Association,
+                              teeth whitening procedures have become some of the most popular aesthetic dental
+                              treatments among patients throughout the country.
+                              Professional teeth whitening services can be performed in an office setting or prescribed
+                              for take-home use by a patient.
+                              In comparison to over-the-counter teeth whitening treatments, professional whitening uses
+                              stronger whitening agents
+                              that deliver faster and more effective results.</p>
+                    </div>
 
                     <div id="family_dentistry" class="more_info">
                          <h3>FAMILY DENTISTRY</h3>
                          <p>Teeth implants usually consist of three parts:
 
-                         The implant screw: Gets permanently attached to your jaw, serving as the root for new
-                         teeth.
+                              The implant screw: Gets permanently attached to your jaw, serving as the root for new
+                              teeth.
 
-                         The abutment: A connector that gets attached to the implant, holds the new tooth or a set
-                         of teeth.
+                              The abutment: A connector that gets attached to the implant, holds the new tooth or a set
+                              of teeth.
 
-                         The crown: A prosthetic tooth that will be visible.
+                              The crown: A prosthetic tooth that will be visible.
 
-                         Dental implants are replacement teeth made from medical-grade titanium alloy which is a
-                         metal that is highly biocompatible with your body. Our leading dentists will surgically
-                         insert and fuse the implant post into the jawbone, artificially replacing a real tooth
-                         root.
+                              Dental implants are replacement teeth made from medical-grade titanium alloy which is a
+                              metal that is highly biocompatible with your body. Our leading dentists will surgically
+                              insert and fuse the implant post into the jawbone, artificially replacing a real tooth
+                              root.
 
-                         Once the post integrates and bonds with the bone around it (osseointegration), the
-                         abutment gets installed, which will hold the crown. Then, our skilled periodontist will
-                         cap the post and abutment with a tooth-colored, natural-looking dental crown, dentures or
-                         bridges.
+                              Once the post integrates and bonds with the bone around it (osseointegration), the
+                              abutment gets installed, which will hold the crown. Then, our skilled periodontist will
+                              cap the post and abutment with a tooth-colored, natural-looking dental crown, dentures or
+                              bridges.
 
-                         Artificial teeth will help you smile more, speak more clearly, and chew better.</p>                    </div>
+                              Artificial teeth will help you smile more, speak more clearly, and chew better.</p>
+                    </div>
 
                     <div id="cosmetic_dentistry" class="more_info">
                          <h3>COSMETIC DENTISTRY</h3>
                          <p>Teeth implants usually consist of three parts:
 
-                         The implant screw: Gets permanently attached to your jaw, serving as the root for new
-                         teeth.
+                              The implant screw: Gets permanently attached to your jaw, serving as the root for new
+                              teeth.
 
-                         The abutment: A connector that gets attached to the implant, holds the new tooth or a set
-                         of teeth.
+                              The abutment: A connector that gets attached to the implant, holds the new tooth or a set
+                              of teeth.
 
-                         The crown: A prosthetic tooth that will be visible.
+                              The crown: A prosthetic tooth that will be visible.
 
-                         Dental implants are replacement teeth made from medical-grade titanium alloy which is a
-                         metal that is highly biocompatible with your body. Our leading dentists will surgically
-                         insert and fuse the implant post into the jawbone, artificially replacing a real tooth
-                         root.
+                              Dental implants are replacement teeth made from medical-grade titanium alloy which is a
+                              metal that is highly biocompatible with your body. Our leading dentists will surgically
+                              insert and fuse the implant post into the jawbone, artificially replacing a real tooth
+                              root.
 
-                         Once the post integrates and bonds with the bone around it (osseointegration), the
-                         abutment gets installed, which will hold the crown. Then, our skilled periodontist will
-                         cap the post and abutment with a tooth-colored, natural-looking dental crown, dentures or
-                         bridges.
+                              Once the post integrates and bonds with the bone around it (osseointegration), the
+                              abutment gets installed, which will hold the crown. Then, our skilled periodontist will
+                              cap the post and abutment with a tooth-colored, natural-looking dental crown, dentures or
+                              bridges.
 
-                         Artificial teeth will help you smile more, speak more clearly, and chew better.</p>                    </div>
+                              Artificial teeth will help you smile more, speak more clearly, and chew better.</p>
+                    </div>
                     <div class="clearfix"></div>
 
 
                </div>
           </div>
-          <!-- </div> -->
-
+          <div id="third-curve">
+             
+               <!-- <div class="container"> -->
+               <div class=" center mh" >
+                    <div class="page-top-icon" >
+                         
+                    </div>
+               </div>
+               <!-- </div> -->
+          </div>
      </section>
 
      <!-- MEET DR GELMAN -->
@@ -564,6 +596,16 @@
 
 
 
+          </div>
+          <div id="third-curve">
+             
+               <!-- <div class="container"> -->
+               <div class=" center mh" >
+                    <div class="page-top-icon" >
+                         
+                    </div>
+               </div>
+               <!-- </div> -->
           </div>
      </section>
 
@@ -672,6 +714,16 @@
 
                </div>
           </div>
+          <div id="third-curve">
+             
+               <!-- <div class="container"> -->
+               <div class=" center mh" >
+                    <div class="page-top-icon" >
+                         
+                    </div>
+               </div>
+               <!-- </div> -->
+          </div>
      </section>
 
 
@@ -730,12 +782,21 @@
 
                </div>
           </div>
-
+          <div id="third-curve">
+             
+               <!-- <div class="container"> -->
+               <div class=" center mh" >
+                    <div class="page-top-icon" >
+                         
+                    </div>
+               </div>
+               <!-- </div> -->
+          </div>
      </section>
 
 
      <!-- GOOGLE MAP -->
-     <section id="google-map" data-stellar-background-ratio="2">
+     <section id="google-map" data-stellar-background-ratio="1">
           <div class="container">
                <h2>Dental Office Location</h2>
                <div class="row">

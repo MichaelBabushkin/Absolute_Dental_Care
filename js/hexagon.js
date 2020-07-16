@@ -2,13 +2,8 @@ $(document).ready(function() {
   // document is loaded and DOM is ready
   var i, tabcontent, tablinks;
   tabcontent = document.getElementsByClassName("more_info");
-    // tabcontent[1].style.display = "none";
-  
   tablinks = document.getElementsByClassName("tablinks");
-    // tablinks[1].className = tablinks[i].className.replace(" active", "");
-  
   document.getElementById('cosmetic_dentistry').style.display = "block";
-  evt.currentTarget.className += " active";
   document.getElementById("serviceName").innerHTML =  'COSMETIC DENTISTRY';
 });
 

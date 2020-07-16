@@ -193,7 +193,7 @@ http://www.tooplate.com/view/2098-health
     
     position: relative;
     padding-top: 100px;
-    padding-bottom: 100px;
+    /* padding-bottom: 100px; */
   }
 
   #news{
@@ -201,18 +201,19 @@ http://www.tooplate.com/view/2098-health
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top !important;
+    margin-top: 0px !important;
   }
 
   #news, #service {
     text-align: center;
   }
+  #news h2{
+    padding-top: 5%;
+  }
 
   #google-map {
-    /* line-height: 0; */
-    margin-top: 15%;
+  
     background-image: url(../images/blue.jpg);
-    /* margin-left: 30px; */
-   
 
   }
   .outside-office-photo{
@@ -335,7 +336,7 @@ http://www.tooplate.com/view/2098-health
     /* background: #ffffff; */
     box-shadow: 0 2px 8px rgba(0,0,0,.075);
     border: none;
-    margin-bottom: 0;
+    margin-bottom: 0px !important ;
     padding: 10px;
   }
 
@@ -538,6 +539,53 @@ http://www.tooplate.com/view/2098-health
   padding-top: 15%;
   font-family: "Comic Sans MS", cursive, sans-serif;
 }
+  /*---------------------------------------
+     Section Divider         
+  -----------------------------------------*/
+
+  .mh {
+    min-height: 114px;
+  }
+  #third-curve {
+    margin-top:100px;
+    background: #17839d;
+    background-image: url();
+  }
+  
+  #third-curve .page-top-icon {
+    position: absolute;
+    width: 104px;
+    height: 90px;
+    margin: -29px auto;
+    background: #17839d;
+    border-radius: 100%;
+    color: white;
+    text-align: center;
+    text-indent: .1em;
+    /* top: 70px; */
+    left: 50%;
+  }
+  
+  #third-curve .page-top-icon:before, #third-curve .page-top-icon:after {
+    content: '';
+    background: none;
+    height: 40px;
+    width: 61px;
+    position: absolute;
+    top: -10px;
+    box-shadow: 0px 22px 0 0 #17839d;
+  }
+  
+  #third-curve .page-top-icon:before {
+    left: -35px;
+    border-radius: 0 0 100% 0;
+  }
+  
+  #third-curve .page-top-icon:after {
+    right: -35px;
+    border-radius: 0 0 0 100%;
+  }
+
 
   /*---------------------------------------
      Our services           
@@ -656,9 +704,9 @@ http://www.tooplate.com/view/2098-health
 
   
   /*---------------------------------------
-      TEAM MEMBERS              
+     /* Dr. Gelman description         
   -----------------------------------------*/
-/* Dr. Gelman description */
+
   .team-thumb {
     border-radius: 0 0 10px 10px;
     position: relative;
