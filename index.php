@@ -523,7 +523,7 @@
           <div class="container">
                <div class="row">
 
-                    <div class="col-md-6 col-sm-6">
+                    <div class="col-md-12 col-sm-12">
                          <div class="about-info">
                               <h2 class="wow fadeInUp" data-wow-delay="0.1s">Meet Doctor Gelman</h2>
                          </div>
@@ -732,6 +732,9 @@
           <div class="container">
                <div class="row">
 
+                    <div class="col-md-12 col-sm-12">
+                         <h2>Quick Contact</h2>
+                    </div>
                     <div class="col-md-6 col-sm-6">
                          <img src="images/team-image3.jpg" class="img-responsive" alt="">
                     </div>
@@ -742,7 +745,7 @@
 
                               <!-- SECTION TITLE -->
                               <div class="section-title wow fadeInUp" data-wow-delay="0.4s">
-                                   <h2>Quick Contact</h2>
+                                  
                                    <h3>Contact us today, and get reply within 24 hours!</h3>
 
                               </div>
