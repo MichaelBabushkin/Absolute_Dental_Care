@@ -74,11 +74,11 @@
                     <!-- <img src="nav_logo.png" alt=""> -->
                     <div class="navbar-header col-md-3 col-sm-12 text-align-left">
                          <!-- <img class="nav-logo" src="nav_logo.png" alt=""> -->
-                         <!-- <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                                   <span class="icon icon-bar">1</span>
-                                   <span class="icon icon-bar">2</span>
-                                   <span class="icon icon-bar">3</span>
-                              </button> -->
+                          <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                   <span class="icon icon-bar"></span>
+                                   <span class="icon icon-bar"></span>
+                                   <span class="icon icon-bar"></span>
+                              </button> 
 
                          <a href="index.php" class="navbar-brand">Absolute Dental Care PC</a>
                     </div>
