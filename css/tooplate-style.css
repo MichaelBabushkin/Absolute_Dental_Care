@@ -350,6 +350,14 @@ http://www.tooplate.com/view/2098-health
     color: #393939;
     font-weight: 500;
   }
+  .navbar-brand {
+    float: right!important;
+    height: 50px;
+    padding: 15px 6px!important;
+    font-size: 16px!important;
+    line-height: 20px;
+    margin-left: 4px !important;
+}
 
   .navbar-default .navbar-brand .fa {
     color: #a5c422;
@@ -1294,7 +1302,16 @@ margin-bottom: 5%;
 .copyright-text{
 margin-top: 10px;
 }
-
+.navbar-brand {
+  float: right!important;
+  margin-right: 100px !important;
+}
+.navbar-toggle {
+  margin-right: -20px!important;
+}
+.nav-logo{
+  margin-left: -20px !important;
+}
 
 }
 

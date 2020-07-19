@@ -68,12 +68,12 @@
      <section class="navbar navbar-default navbar-static-top" role="navigation">
           <div class="container">
                <div class="row">
-                    <div class="col-md-1 col-sm-1">
+                    <!-- <div class="col-md-1 col-sm-1">
                          <img class="nav-logo" src="nav_logo.png" alt="">
-                    </div>
+                    </div> -->
                     <!-- <img src="nav_logo.png" alt=""> -->
                     <div class="navbar-header col-md-3 col-sm-12 text-align-left">
-                         <!-- <img class="nav-logo" src="nav_logo.png" alt=""> -->
+                         <img class="nav-logo" src="nav_logo.png" alt="">
                           <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                                    <span class="icon icon-bar"></span>
                                    <span class="icon icon-bar"></span>
