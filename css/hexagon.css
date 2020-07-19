@@ -130,7 +130,8 @@ h1 {
 	-moz-background-size: 100%;
 	background-position-x: -226px;
     background-position-y: 101px;
-    background-size: 337%;}
+	background-size: 337%;
+}
 #f_dentistry{
 	background-position: -92px 102px;
 	-webkit-background-size: 108%;
@@ -266,7 +267,7 @@ background-position-x: 95%;
 	width: 405px;
 }
 
-.ourServices_item:nth-child(5n-1) {
+/* .ourServices_item:nth-child(5n-1) {
 	margin-left: 0px;
 }
 
@@ -276,11 +277,86 @@ background-position-x: 95%;
 
 .ourServices_item:nth-child(n+3) {
 	margin-top: -56px;
+} */
+.ourServices_item {
+	width: 110px;
+	height: 135px;
+	position: relative;
+	display: inline-block;
 }
 
+.hexagon2 {
+	position: absolute;
+	width: 120px;
+	height: 240px;
+	top: -102px;
 }
 
-@media (max-width: 450px) {
+.ourServices_item:nth-child(2) {
+	margin-left: -10%;
+}
+
+.ourServices_item:nth-child(3) {
+	margin-left:3%;
+}
+.ourServices_item:nth-child(5) {
+	margin-left: -50%;
+}
+.ourServices_item:nth-child(6) {
+	margin-left: 2%;
+}
+
+.ourServices_item:nth-child(n+5) {
+	margin-top: -6%;
+}
+.ourServices_item:nth-child(7) {
+	margin-left: 5%;
+}
+.ourServices_item:nth-child(9) {
+	margin-left: -8%;
+}
+.ourServices_item:nth-child(10) {
+	margin-left: 3%;
+}
+#f_dentistry{
+	background-position: -38px 53px;
+	-webkit-background-size: 100%;
+	-moz-background-size: 100%;
+	background-size: 165%;
+
+}
+#serviceName{
+	transform: translate(-50%, -50%);
+	font: 2em sans-serif;
+	letter-spacing: 4px;
+	mix-blend-mode: difference;
+	color: #fff;
+	text-shadow: 5px 3px 3px #b18795;
+	font-size: 1.5rem;
+	margin: 100% 40%;
+	text-align: center;
+	width: 71%;
+}
+#whiten{
+	-webkit-background-size: 100%;
+	-moz-background-size: 100%;
+	background-position-x: -116px;
+    background-position-y: 50px;
+	background-size: 337%;
+}
+.more_info{
+	float: left;
+	padding: 0px 12px;
+	border: 1px solid #ccc;
+	width: 70%;
+	border-left: 2px solid;
+	border-right: 2px solid;
+	margin-left:15%;
+	display: none;
+}
+}
+
+/* @media (max-width: 450px) {
 	#ourServices article {
 	width: 300px;
 }
@@ -297,4 +373,4 @@ background-position-x: 95%;
 	margin-top: -56px;
 }
 
-}
+} */

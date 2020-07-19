@@ -218,17 +218,17 @@
                               <p>PLEASE NOTE: We also accept many other insurances (All major insurances).
                                    Please contact the office for more information.</p>
                          </div>
-                         <div class="col-md-8 col-sm-8">
+                         <div class="col-md-8 col-sm-12">
                               <div class="card">
                                    <div class="image-grid-container">
-                                        <img src="images/dental insurance/aetna.png">
-                                        <img src="images/dental insurance/bluecross.png">
-                                        <img src="images/dental insurance/cigna.png">
-                                        <img src="images/dental insurance/concordia.png">
-                                        <img src="images/dental insurance/delta.png">
-                                        <img src="images/dental insurance/guardian.png">
-                                        <img src="images/dental insurance/metlife.png">
-                                        <img src="images/dental insurance/united.png">
+                                        <img src="images/dental insurance/aetna.png" class="image-grid">
+                                        <img src="images/dental insurance/bluecross.png" class="image-grid">
+                                        <img src="images/dental insurance/cigna.png" class="image-grid">
+                                        <img src="images/dental insurance/concordia.png" class="image-grid">
+                                        <img src="images/dental insurance/delta.png"class="image-grid">
+                                        <img src="images/dental insurance/guardian.png"class="image-grid">
+                                        <img src="images/dental insurance/metlife.png"class="image-grid">
+                                        <img src="images/dental insurance/united.png"class="image-grid">
 
                                    </div>
                               </div>
@@ -563,7 +563,7 @@
                                              English
                                         </li>
                                    </ul>
-                                   <iframe width="400" height="315" src="https://www.youtube.com/embed/_q3UgS8Uf-E"
+                                   <iframe class="youtube-video" width="400" height="315" src="https://www.youtube.com/embed/_q3UgS8Uf-E"
                                         frameborder="0"
                                         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                                         allowfullscreen></iframe>
@@ -804,15 +804,15 @@
                <h2>Dental Office Location</h2>
                <div class="row">
                     <div class="col-md-6 col-sm-12" class="map-img">
-                         <iframe
-                              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6055.871851704374!2d-74.023372!3d40.631295!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2455859c3ffff%3A0x18be282263a13a61!2s310%2076th%20St%2C%20Brooklyn%2C%20NY%2011209%2C%20USA!5e0!3m2!1sen!2sil!4v1592175282042!5m2!1sen!2sil"
+                         <iframe 
+                         class="min-outside-office-photo" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6055.871851704374!2d-74.023372!3d40.631295!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2455859c3ffff%3A0x18be282263a13a61!2s310%2076th%20St%2C%20Brooklyn%2C%20NY%2011209%2C%20USA!5e0!3m2!1sen!2sil!4v1592175282042!5m2!1sen!2sil"
                               width="550" height="350" frameborder="0" style="border:0;" allowfullscreen=""
                               aria-hidden="false" tabindex="0"></iframe>
                     </div>
                     <div class="col-md-6 col-sm-12" class="map-img" class="outside-office-photo">
-                         <iframe src="images/office_outside.jpg" width="550" height="350" frameborder="0"
+                         <iframe class="min-outside-office-photo" src="images/office_outside.jpg" width="550" height="350" frameborder="0"
                               style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-                         <!-- <img class="outside-office-photo" src="images/office_outside.jpg" alt=""> -->
+                        
                     </div>
                </div>
           </div>
@@ -1058,7 +1058,7 @@
                               <div class="contact-info">
                                    <p><i class="fa fa-phone"></i> 718-833-3417</p>
                                    <p><i class="fa fa-envelope-o"></i> <a
-                                             href="mailto:absolutedentalny@gmail.com">absolutedentalny@gmail.com</a></p>
+                                             href="mailto:absolutedentalny@gmail.com" style="color: black;">absolutedentalny@gmail.com</a></p>
                               </div>
                          </div>
                     </div>
@@ -1079,17 +1079,13 @@
 
                     <div class="col-md-12 col-sm-12 border-top">
                          <div class="col-md-6 col-sm-8">
-                              <div class="copyright-text">
-                                   <p>Copyright &copy; Michael Babushkin Software Solutions 2020 All Rights Reserved
-                                   </p>
-                                   <p>Hosted on WebMarie.com</p>
-                              </div>
+                        
                          </div>
                          <div class="col-md-2 col-sm-2"></div>
                          <div class="col-md-4 col-sm-4">
                               <div class="footer-link">
-                                   <a href="#privacyModal" data-toggle="modal">Privacy Policy</a>
-                                   <a href="#myModal" data-toggle="modal">Terms Of Use</a>
+                                   <a href="#privacyModal" data-toggle="modal" style="color: cadetblue;">Privacy Policy</a>
+                                   <a href="#myModal" data-toggle="modal" style="color: cadetblue;">Terms Of Use</a>
                               </div>
                          </div>
                          <!-- <div class="col-md-2 col-sm-2 text-align-center">
@@ -1098,6 +1094,16 @@
                                              class="fa fa-angle-up"></i></a>
                               </div>
                          </div> -->
+                    </div>
+                    <div class="col-md-12 col-sm-12">
+                         <div class="copyright-text">
+                              <p>Copyright &copy; Michael Babushkin Software Solutions 2020</p> 
+                              <p>All Rights Reserved
+                              </p>
+                              <p>Hosted on WebMarie.com</p>
+                         </div>
+
+
                     </div>
 
                </div>
