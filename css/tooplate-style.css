@@ -442,6 +442,8 @@ http://www.tooplate.com/view/2098-health
     background-color: transparent;
   }
 
+  
+
   .nav-logo{
     border-radius: 50%;
   }
@@ -545,6 +547,7 @@ http://www.tooplate.com/view/2098-health
 } 
 .image-grid-container { 
     display: grid; 
+    background-color: transparent;
       
     /* For 3 columns */ 
     grid-template-columns: auto auto auto auto; 
@@ -666,7 +669,7 @@ http://www.tooplate.com/view/2098-health
   
   @media(max-width: 767px){
     .services-inner{
-      display: block;
+      display: inline-block;
     }
   }
   .dropdown-menu {
@@ -677,14 +680,15 @@ http://www.tooplate.com/view/2098-health
   .dropdown-menu.columns-2 {
     min-width: 400px;
   }
-  .dropdown-menu.columns-3 {
-    min-width: 500%;
-    margin-right: -337%;
-    margin-top: 13% !important;
-    border-radius: 15px;
-    background-color: ivory;
-    padding-left:  7px!important;
-  }
+    .dropdown-menu.columns-3 {
+      min-width: 500%;
+      margin-right: -10%;
+      margin-top: 13% !important;
+      border-radius: 15px;
+      background-color: ivory;
+      padding-left:  7px!important;
+    } 
+  
   .dropdown-menu li a {
     padding: 5px 15px;
     font-weight: 300;
@@ -1313,5 +1317,43 @@ margin-top: 10px;
   margin-left: -20px !important;
 }
 
+.dropdown-toggle{
+cursor: pointer;
+
 }
+.multi-column-dropdown{
+width: 200px;
+margin-left: 1%;
+height: fit-content ;
+
+}
+
+.service_column {
+  padding-left: 2%;
+  padding-top: 5%;
+  color: rgb(85, 85, 85);
+  font-size: 13px;
+  font-weight: 500;
+  margin-right: 10px;
+  transition: all 0.4s ease-in-out 0s;
+  border-radius: 25px;
+}
+.col-h4{
+  font-size: 15px;
+  margin-left: -5%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.multi-column-dropdown li a {
+  font-size: 13px !important;
+  margin-left: -4%;
+  max-width: 100%;
+}
+.col-sm-3{
+  width: 50%;
+  margin-bottom: 10%;
+  margin-left: -2%;
+}
+}
+
 

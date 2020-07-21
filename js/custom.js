@@ -8,10 +8,10 @@
     });
 
 
-    //Navigation Section
-    $('.navbar-collapse a').on('click',function(){
-      $(".navbar-collapse").collapse('hide');
-    });
+    // //Navigation Section
+    // $('.navbar-collapse a').on('click',function(){
+    //   $(".navbar-collapse").collapse('hide');
+    // });
 
 
     // Owl Carousel
@@ -48,4 +48,14 @@
     // WOW ANIMATION
     new WOW({ mobile: false }).init();
 
+
 })(jQuery);
+
+
+$(document).ready( function() {
+  $("li.dropdown-submenu > a").on("click", function(){
+    $("li.dropdown-submenu").removeClass("active");
+    $(this).parent().addClass("active");
+    return false;
+  });
+});

@@ -68,13 +68,12 @@
      <section class="navbar navbar-default navbar-static-top" role="navigation">
           <div class="container">
                <div class="row">
-                    <!-- <div class="col-md-1 col-sm-1">
-                         <img class="nav-logo" src="nav_logo.png" alt="">
-                    </div> -->
-                    <!-- <img src="nav_logo.png" alt=""> -->
+                 
                     <div class="navbar-header col-md-3 col-sm-12 text-align-left">
                          <img class="nav-logo" src="nav_logo.png" alt="">
-                          <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                          <!-- <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> -->
+                              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                                   <span class="sr-only">Toggle navigation</span>
                                    <span class="icon icon-bar"></span>
                                    <span class="icon icon-bar"></span>
                                    <span class="icon icon-bar"></span>
@@ -84,19 +83,19 @@
                     </div>
 
                     <!-- MENU LINKS -->
-                    <div class="collapse navbar-collapse col-md-8 col-sm-6 text-align-right">
+                    <div class="collapse navbar-collapse col-md-8 col-sm-6 text-align-right" id="bs-example-navbar-collapse-1">
                          <ul class="nav navbar-nav navbar-right">
                               <li><a href="#top" class="smoothScroll">Home</a></li>
-                              <!-- <li><a href="#services" class="smoothScroll">Our services</a></li> -->
                               <li class="dropdown">
-                                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">Our services<b
+                                   <a href="#" class="dropdown-toggle" data-toggle="dropdown"  aria-haspopup="true">Our services<b
                                              class="caret"></b></a>
                                    <ul class="dropdown-menu multi-column columns-3">
                                         <div class="row">
                                              <div class="col-sm-3">
                                                   <ul class="multi-column-dropdown">
+                                                       <!-- <ul class="dropdown-menu multi-level" role="menu"> -->
                                                        <li>
-                                                            <h4>COSMETIC DENTISTRY</h4>
+                                                            <h4 class="col-h4">COSMETIC DENTISTRY</h4>
                                                        </li>
                                                        <li class="service_column">Dental Bridge</li>
                                                        <li class="service_column">Teeth Cleaning</li>
@@ -108,8 +107,9 @@
                                              </div>
                                              <div class="col-sm-3">
                                                   <ul class="multi-column-dropdown">
+                                                       <!-- <ul class="dropdown-menu multi-level" role="menu"> -->
                                                        <li>
-                                                            <h4>PEDIATRIC DENTISTRY</h4>
+                                                            <h4 class="col-h4">PEDIATRIC DENTISTRY</h4>
                                                        </li>
                                                        <li class="service_column">White Fillings (BPA Free)</li>
                                                        <li class="service_column">Emergency Pediatric Dental Care</li>
@@ -121,8 +121,9 @@
                                              </div>
                                              <div class="col-sm-3">
                                                   <ul class="multi-column-dropdown">
+                                                       <!-- <ul class="dropdown-menu multi-level" role="menu"> -->
                                                        <li>
-                                                            <h4>PERIODONTICS</h4>
+                                                            <h4 class="col-h4">PERIODONTICS</h4>
                                                        </li>
                                                        <li class="service_column">Tooth Extraction</li>
                                                        <li class="service_column">Dental Oral Surgery</li>
@@ -134,8 +135,9 @@
                                              </div>
                                              <div class="col-sm-3">
                                                   <ul class="multi-column-dropdown">
+                                                        <!-- <ul class="dropdown-menu multi-level" role="menu"> -->
                                                        <li>
-                                                            <h4>DENTAL IMPLANTS</h4>
+                                                            <h4 class="col-h4">DENTAL IMPLANTS</h4>
                                                        </li>
                                                        <li class="service_column">Single Tooth Implant</li>
                                                        <li class="service_column">Denture Implants</li>
@@ -228,7 +230,7 @@
                                         <img src="images/dental insurance/delta.png"class="image-grid">
                                         <img src="images/dental insurance/guardian.png"class="image-grid">
                                         <img src="images/dental insurance/metlife.png"class="image-grid">
-                                        <img src="images/dental insurance/united.png"class="image-grid">
+                                        <img src="images/dental insurance/prudential.png"class="image-grid">
 
                                    </div>
                               </div>
@@ -1053,6 +1055,7 @@
                               <h4 class="wow fadeInUp" data-wow-delay="0.4s"><i class=" fa fa-map-marker"></i>Dental
                                    Office Location</h4>
                               <p class="address">7601 3rd Ave,</p>
+                              <p class="address">Enterance from 76th St,</p>
                               <p class="address">Brooklyn, NY 11209</p>
 
                               <div class="contact-info">
@@ -1069,9 +1072,9 @@
                          <div class="footer-thumb">
                               <div class="opening-hours">
                                    <h4 class="wow fadeInUp" data-wow-delay="0.4s">Opening Hours</h4>
-                                   <p>Monday - Friday <span>06:00 AM - 10:00 PM</span></p>
-                                   <p>Saturday <span>09:00 AM - 08:00 PM</span></p>
-                                   <p>Sunday <span>Closed</span></p>
+                                   <p>Monday Wednesday Friday <span>12:00 AM - 07:00 PM</span></p>
+                                   <p>Sunday Saturday ------ <span>By appointment</span></p>
+                                   <p> <span>Closed</span></p>
                               </div>
 
                          </div>
